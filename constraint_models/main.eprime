@@ -1,0 +1,124 @@
+language ESSENCE' 1.0
+
+given cards : matrix indexed by [ int(1..n) ] of int(0..51)
+where alldifferent(cards)
+
+$ Ranges for each shape
+$letting HEART_DOMAIN be domain int(0..12)
+$letting DIAMOND_DOMIN be domain int(13..25)
+$letting CLUBS_DOMAIN be domain int(26..38)
+$letting SPADE_DOMAIN be domain int(39..51)
+
+$ Length domains for lists
+letting LENGTH be domain int(1..n)
+letting RANGE be domain int(1..n-1)
+letting RANGE1 be domain int(2..n)
+letting RANGE2 be domain int(2..n-1)
+letting MOVES be domain int(1, 3)
+
+
+$ decision variables
+
+find moves : matrix indexed by [RANGE] of MOVES
+find movesFrom : matrix indexed by [RANGE] of int(1..n)
+find movesTo : matrix indexed by [RANGE] of int(1..n)
+
+find states : matrix indexed by [LENGTH, LENGTH] of int(-1..51) $int(-1, cards)
+
+
+such that 
+
+$ set starting states
+forAll j : LENGTH .
+    states[1, j] = cards[j],
+
+
+forAll i : RANGE1 .
+    forAll j : RANGE .
+        (j > movesTo[i - 1] /\ moves[i - 1] = 1)
+        ->
+        states[i, j] = states[i - 1, j + 1],
+
+forAll i : RANGE1 .
+    forAll j : RANGE .
+        (j > movesTo[i - 1] /\ j < movesFrom[i - 1] /\ moves[i - 1] = 3)
+        ->
+        states[i, j] = states[i - 1, j],
+
+$TODO----------------------------------------------------------
+
+forAll i : RANGE .
+    forAll j : LENGTH .
+        (moves[i] = 3 /\ movesFrom[i] < (n - (i - 1)) /\ j <= (n - (i - 1)) /\ j > movesFrom[i])
+        ->
+        states[i + 1, j - 1] = states[i, j],
+
+$TODO----------------------------------------------------------
+
+
+$ If j is not equal to the target index of the previous move, then set the states[i, j] with state[i - 1, j]
+forAll i : RANGE1 .
+    forAll j : LENGTH .
+        j < movesTo[i - 1]
+        ->
+        states[i, j] = states[i - 1, j],
+
+$ If j is equal to the target index of the previous move, then set the states[i, j] with state[i - 1, movesFrom[i - 1]]
+forAll i : RANGE1 .
+    states[i, movesTo[i - 1]] = states[i - 1, movesFrom[i - 1]],
+
+
+$ All pairs of moved card and removed card should have same shape or same number
+forAll a : RANGE .
+    $TODO i <= n - (a + 1)
+    $states[a, movesFrom[a]] != -1 
+    $->
+    states[a, movesFrom[a]] % 13 = states[a, movesTo[a]] % 13
+    \/
+    states[a, movesFrom[a]] / 13 = states[a, movesTo[a]] / 13,
+
+
+$ The value of the moveFrom should be less than the first empty block
+forAll i : RANGE .
+    movesFrom[i] <= n - (i - 1),
+
+
+$ $ Fill the empty blocks with -1.
+forAll i : LENGTH .
+    forAll j : LENGTH .
+        j > (n - i + 1)
+        $i < j /\ j > (n - i + 1)
+        ->
+        states[i, j] = -1,
+
+$ Since we could move either 3 or 1 pile, movesFrom[i] should be either movesTo[i] + 1 or movesTo[i] +3
+forAll i : RANGE .
+    movesFrom[i] = movesTo[i] + 1
+    \/
+    movesFrom[i] = movesTo[i] + 3,
+
+$ Find all moves that move 1 pile
+forAll i : RANGE .
+    movesFrom[i] = movesTo[i] + 1
+    ->
+    moves[i] = 1,
+
+$ Find all mvoes that move 3 piles
+forAll i : RANGE .
+    movesFrom[i] = movesTo[i] + 3
+    ->
+    moves[i] = 3,
+
+$ We cannot move the card to same place, and the player could move the card to left only.
+forAll i : RANGE .
+    movesFrom[i] > movesTo[i],
+
+$TODO should not move the empty cell
+$ forAll i : RANGE2 .
+$     forAll j : int((n - i + 2)..n) .
+$         movesFrom[i] != j,
+
+$ forAll i : RANGE .
+$     states[i, movesFrom[i]] != -1,
+
+true
