@@ -16,8 +16,8 @@ $-------------------------------------------------------------------------------
 $ decision variables
 
 find moves : matrix indexed by [RANGE] of MOVES
-find movesFrom : matrix indexed by [RANGE] of int(1..n)
-find movesTo : matrix indexed by [RANGE] of int(1..n)
+find movesFrom : matrix indexed by [RANGE] of int(2..n)
+find movesTo : matrix indexed by [RANGE] of int(1..n-1)
 find states : matrix indexed by [LENGTH, LENGTH] of CARD_DOMAIN
 
 $-------------------------------------------------------------------------------------------------
@@ -54,69 +54,51 @@ forAll i : RANGE .
 
 
 
-$ If j is not equal to the target index of the previous move, then set the states[i, j] with state[i - 1, j]
 forAll i : RANGE .
     forAll j : LENGTH .
         j < movesTo[i]
         ->
         states[i + 1, j] = states[i, j],
 
-$ If j is equal to the target index of the previous move, then set the states[i, j] with state[i - 1, movesFrom[i - 1]]
 forAll i : RANGE .
     states[i + 1, movesTo[i]] = states[i, movesFrom[i]],
 
 
-$ All pairs of moved card and removed card should have same shape or same number
+
 forAll a : RANGE .
-    $TODO i <= n - (a + 1)
-    $states[a, movesFrom[a]] != -1 
-    $->
     states[a, movesFrom[a]] % 13 = states[a, movesTo[a]] % 13
     \/
     states[a, movesFrom[a]] / 13 = states[a, movesTo[a]] / 13,
 
 
-$ The value of the moveFrom should be less than the first empty block
+forAll i : LENGTH .
+    forAll j : LENGTH .
+        j > (n - i + 1)
+        ->
+        states[i, j] = -1,
+
+
 forAll i : RANGE .
     movesFrom[i] <= n - (i - 1),
 
 
-$ $ Fill the empty blocks with -1.
-forAll i : LENGTH .
-    forAll j : LENGTH .
-        j > (n - i + 1)
-        $i < j /\ j > (n - i + 1)
-        ->
-        states[i, j] = -1,
-
-$ Since we could move either 3 or 1 pile, movesFrom[i] should be either movesTo[i] + 1 or movesTo[i] +3
 forAll i : RANGE .
     movesFrom[i] = movesTo[i] + 1
     \/
     movesFrom[i] = movesTo[i] + 3,
 
-$ Find all moves that move 1 pile
 forAll i : RANGE .
     movesFrom[i] = movesTo[i] + 1
     ->
     moves[i] = 1,
 
-$ Find all mvoes that move 3 piles
 forAll i : RANGE .
     movesFrom[i] = movesTo[i] + 3
     ->
     moves[i] = 3,
 
-$ We cannot move the card to same place, and the player could move the card to left only.
+
 forAll i : RANGE .
     movesFrom[i] > movesTo[i],
-
-$TODO should not move the empty cell
-$ forAll i : RANGE2 .
-$     forAll j : int((n - i + 2)..n) .
-$         movesFrom[i] != j,
-
-$ forAll i : RANGE .
-$     states[i, movesFrom[i]] != -1,
 
 true
