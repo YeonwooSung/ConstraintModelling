@@ -1,0 +1,1693 @@
+MINION 3
+# CSETopLevel_number = 1
+# CSETopLevel_eliminated_expressions = 2
+# CSETopLevel_total_size = 5
+# CSE_active_number = 173
+# CSE_active_eliminated_expressions = 358
+# CSE_active_total_size = 805
+**VARIABLES**
+DISCRETE moves_00001 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00001, [1,1,3,3])
+**VARIABLES**
+DISCRETE moves_00002 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00002, [1,1,3,3])
+**VARIABLES**
+DISCRETE moves_00003 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00003, [1,1,3,3])
+**VARIABLES**
+DISCRETE moves_00004 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00004, [1,1,3,3])
+**VARIABLES**
+DISCRETE moves_00005 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00005, [1,1,3,3])
+**VARIABLES**
+DISCRETE moves_00006 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00006, [1,1,3,3])
+**VARIABLES**
+DISCRETE moves_00007 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00007, [1,1,3,3])
+**VARIABLES**
+DISCRETE moves_00008 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00008, [1,1,3,3])
+**VARIABLES**
+DISCRETE moves_00009 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00009, [1,1,3,3])
+**VARIABLES**
+DISCRETE moves_00010 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00010, [1,1,3,3])
+**VARIABLES**
+DISCRETE moves_00011 #
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(moves_00011, [1,1,3,3])
+**VARIABLES**
+DISCRETE movesFrom_00001 #
+{4..13}
+DISCRETE movesFrom_00002 #
+{4..13}
+DISCRETE movesFrom_00003 #
+{3..12}
+DISCRETE movesFrom_00004 #
+{2..11}
+DISCRETE movesFrom_00005 #
+{2..10}
+DISCRETE movesFrom_00006 #
+{2..9}
+DISCRETE movesFrom_00007 #
+{2..8}
+DISCRETE movesFrom_00008 #
+{2..7}
+DISCRETE movesFrom_00009 #
+{2..6}
+DISCRETE movesFrom_00010 #
+{2..5}
+DISCRETE movesFrom_00011 #
+{2..4}
+DISCRETE movesFrom_00012 #
+{2..3}
+DISCRETE movesTo_00001 #
+{3..11}
+DISCRETE movesTo_00002 #
+{1..12}
+DISCRETE movesTo_00003 #
+{1..11}
+DISCRETE movesTo_00004 #
+{1..10}
+DISCRETE movesTo_00005 #
+{1..9}
+DISCRETE movesTo_00006 #
+{1..8}
+DISCRETE movesTo_00007 #
+{1..7}
+DISCRETE movesTo_00008 #
+{1..6}
+DISCRETE movesTo_00009 #
+{1..5}
+DISCRETE movesTo_00010 #
+{1..4}
+DISCRETE movesTo_00011 #
+{1..3}
+DISCRETE movesTo_00012 #
+{1..2}
+DISCRETE states_00002_00003 #
+{28..32}
+**CONSTRAINTS**
+w-inintervalset(states_00002_00003, [28,28,31,32])
+**VARIABLES**
+DISCRETE states_00002_00004 #
+{1..35}
+**CONSTRAINTS**
+w-inintervalset(states_00002_00004, [1,2,5,6,13,13,16,17,28,28,31,32,34,35])
+**VARIABLES**
+DISCRETE states_00002_00005 #
+{1..35}
+**CONSTRAINTS**
+w-inintervalset(states_00002_00005, [1,2,5,6,13,13,16,17,28,28,31,32,34,35])
+**VARIABLES**
+DISCRETE states_00002_00006 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00002_00006, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00002_00007 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00002_00007, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00002_00008 #
+{1..35}
+**CONSTRAINTS**
+w-inintervalset(states_00002_00008, [1,2,5,6,13,13,16,17,28,28,31,32,34,35])
+**VARIABLES**
+DISCRETE states_00002_00009 #
+{1..35}
+**CONSTRAINTS**
+w-inintervalset(states_00002_00009, [1,2,5,6,13,13,16,17,28,28,31,32,34,35])
+**VARIABLES**
+DISCRETE states_00002_00010 #
+{1..35}
+**CONSTRAINTS**
+w-inintervalset(states_00002_00010, [1,2,5,6,13,13,16,17,28,28,31,32,34,35])
+**VARIABLES**
+DISCRETE states_00002_00011 #
+{1..35}
+**CONSTRAINTS**
+w-inintervalset(states_00002_00011, [1,2,5,6,13,13,16,17,28,28,31,32,34,35])
+**VARIABLES**
+DISCRETE states_00002_00012 #
+{5..35}
+**CONSTRAINTS**
+w-inintervalset(states_00002_00012, [5,6,13,13,16,17,28,28,31,32,34,35])
+**VARIABLES**
+DISCRETE states_00003_00001 #
+{34..47}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00001, [34,35,47,47])
+**VARIABLES**
+DISCRETE states_00003_00002 #
+{16..17}
+DISCRETE states_00003_00003 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00003, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00003_00004 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00004, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00003_00005 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00005, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00003_00006 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00006, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00003_00007 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00007, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00003_00008 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00008, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00003_00009 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00009, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00003_00010 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00010, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00003_00011 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00011, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00003_00012 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00003_00012, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00001 #
+{34..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00001, [34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00002 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00002, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00003 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00003, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00004 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00004, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00005 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00005, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00006 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00006, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00007 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00007, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00008 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00008, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00009 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00009, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00010 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00010, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00004_00011 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00004_00011, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00005_00001 #
+{28..48}
+**CONSTRAINTS**
+w-inintervalset(states_00005_00001, [28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00005_00002 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00005_00002, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00005_00003 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00005_00003, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00005_00004 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00005_00004, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00005_00005 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00005_00005, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00005_00006 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00005_00006, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00005_00007 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00005_00007, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00005_00008 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00005_00008, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00005_00009 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00005_00009, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00005_00010 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00005_00010, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00006_00001 #
+{2..48}
+**CONSTRAINTS**
+w-inintervalset(states_00006_00001, [2,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00006_00002 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00006_00002, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00006_00003 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00006_00003, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00006_00004 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00006_00004, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00006_00005 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00006_00005, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00006_00006 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00006_00006, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00006_00007 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00006_00007, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00006_00008 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00006_00008, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00006_00009 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00006_00009, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00007_00001 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00007_00001, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00007_00002 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00007_00002, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00007_00003 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00007_00003, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00007_00004 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00007_00004, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00007_00005 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00007_00005, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00007_00006 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00007_00006, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00007_00007 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00007_00007, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00007_00008 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00007_00008, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00008_00001 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00008_00001, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00008_00002 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00008_00002, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00008_00003 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00008_00003, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00008_00004 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00008_00004, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00008_00005 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00008_00005, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00008_00006 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00008_00006, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00008_00007 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00008_00007, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00009_00001 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00009_00001, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00009_00002 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00009_00002, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00009_00003 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00009_00003, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00009_00004 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00009_00004, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00009_00005 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00009_00005, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00009_00006 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00009_00006, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00010_00001 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00010_00001, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00010_00002 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00010_00002, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00010_00003 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00010_00003, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00010_00004 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00010_00004, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00010_00005 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00010_00005, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00011_00001 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00011_00001, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00011_00002 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00011_00002, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00011_00003 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00011_00003, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00011_00004 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00011_00004, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00012_00001 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00012_00001, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00012_00002 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00012_00002, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00012_00003 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00012_00003, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00013_00001 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00013_00001, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE states_00014_00001 #
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(states_00014_00001, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux16 #Active-CSE: 2 occurrences of this expression or equivalent: Element([47, 17, states_00002_00003, states_00002_00004, states_00002_00005, states_00002_00006, states_00002_00007, states_00002_00008, states_00002_00009, states_00002_00010, states_00002_00011, states_00002_00012], (-1 + movesTo_00002))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux16, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux17 #Active-CSE: 2 occurrences of this expression or equivalent: Element([states_00003_00001, states_00003_00002, states_00003_00003, states_00003_00004, states_00003_00005, states_00003_00006, states_00003_00007, states_00003_00008, states_00003_00009, states_00003_00010, states_00003_00011], (-1 + movesTo_00003))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux17, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux18 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00004_00002, states_00004_00003, states_00004_00004, states_00004_00005, states_00004_00006, states_00004_00007, states_00004_00008, states_00004_00009, states_00004_00010, states_00004_00011], (-2 + movesFrom_00004))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux18, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux19 #Active-CSE: 3 occurrences of this expression or equivalent: Element([32, 6, 16, 48, 1, 2, 31, 34, 35, 5], (-4 + movesFrom_00001))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux19, [1,2,5,6,16,16,31,32,34,35,48,48])
+**VARIABLES**
+DISCRETE aux20 #Active-CSE: 2 occurrences of this expression or equivalent: Element([states_00004_00001, states_00004_00002, states_00004_00003, states_00004_00004, states_00004_00005, states_00004_00006, states_00004_00007, states_00004_00008, states_00004_00009, states_00004_00010], (-1 + movesTo_00004))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux20, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux21 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00003_00003, states_00003_00004, states_00003_00005, states_00003_00006, states_00003_00007, states_00003_00008, states_00003_00009, states_00003_00010, states_00003_00011, states_00003_00012], (-3 + movesFrom_00003))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux21, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux22 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00002_00004, states_00002_00005, states_00002_00006, states_00002_00007, states_00002_00008, states_00002_00009, states_00002_00010, states_00002_00011, states_00002_00012, 13], (-4 + movesFrom_00002))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux22, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux23 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00005_00002, states_00005_00003, states_00005_00004, states_00005_00005, states_00005_00006, states_00005_00007, states_00005_00008, states_00005_00009, states_00005_00010], (-2 + movesFrom_00005))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux23, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux24 #Active-CSE: 2 occurrences of this expression or equivalent: Element([states_00005_00001, states_00005_00002, states_00005_00003, states_00005_00004, states_00005_00005, states_00005_00006, states_00005_00007, states_00005_00008, states_00005_00009], (-1 + movesTo_00005))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux24, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux25 #Active-CSE: 2 occurrences of this expression or equivalent: Element([28, 32, 6, 16, 48, 1, 2, 31, 34], (-3 + movesTo_00001))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux25, [1,2,6,6,16,16,28,28,31,32,34,34,48,48])
+**VARIABLES**
+DISCRETE aux26 #Active-CSE: 2 occurrences of this expression or equivalent: Element([states_00006_00001, states_00006_00002, states_00006_00003, states_00006_00004, states_00006_00005, states_00006_00006, states_00006_00007, states_00006_00008], (-1 + movesTo_00006))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux26, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux27 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00006_00002, states_00006_00003, states_00006_00004, states_00006_00005, states_00006_00006, states_00006_00007, states_00006_00008, states_00006_00009], (-2 + movesFrom_00006))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux27, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux28 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00007_00002, states_00007_00003, states_00007_00004, states_00007_00005, states_00007_00006, states_00007_00007, states_00007_00008], (-2 + movesFrom_00007))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux28, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux29 #Active-CSE: 2 occurrences of this expression or equivalent: Element([states_00007_00001, states_00007_00002, states_00007_00003, states_00007_00004, states_00007_00005, states_00007_00006, states_00007_00007], (-1 + movesTo_00007))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux29, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux30 #Active-CSE: 2 occurrences of this expression or equivalent: Element([states_00008_00001, states_00008_00002, states_00008_00003, states_00008_00004, states_00008_00005, states_00008_00006], (-1 + movesTo_00008))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux30, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux31 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00008_00002, states_00008_00003, states_00008_00004, states_00008_00005, states_00008_00006, states_00008_00007], (-2 + movesFrom_00008))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux31, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux32 #Active-CSE: 2 occurrences of this expression or equivalent: Element([states_00009_00001, states_00009_00002, states_00009_00003, states_00009_00004, states_00009_00005], (-1 + movesTo_00009))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux32, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux33 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00009_00002, states_00009_00003, states_00009_00004, states_00009_00005, states_00009_00006], (-2 + movesFrom_00009))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux33, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux34 #Active-CSE: 2 occurrences of this expression or equivalent: Element([states_00010_00001, states_00010_00002, states_00010_00003, states_00010_00004], (-1 + movesTo_00010))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux34, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux35 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00010_00002, states_00010_00003, states_00010_00004, states_00010_00005], (-2 + movesFrom_00010))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux35, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux36 #Active-CSE: 2 occurrences of this expression or equivalent: Element([states_00011_00001, states_00011_00002, states_00011_00003], (-1 + movesTo_00011))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux36, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux37 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00011_00002, states_00011_00003, states_00011_00004], (-2 + movesFrom_00011))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux37, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux38 #Active-CSE: 3 occurrences of this expression or equivalent: Element([states_00012_00002, states_00012_00003], (-2 + movesFrom_00012))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux38, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+DISCRETE aux39 #Active-CSE: 2 occurrences of this expression or equivalent: Element([states_00012_00001, states_00012_00002], (-1 + movesTo_00012))
+{1..48}
+**CONSTRAINTS**
+w-inintervalset(aux39, [1,2,5,6,13,13,16,17,28,28,31,32,34,35,47,48])
+**VARIABLES**
+BOOL aux40 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00001=(1 + movesTo_00001))
+BOOL aux41 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00002=(1 + movesTo_00002))
+BOOL aux42 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00003=(1 + movesTo_00003))
+BOOL aux43 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00001=(3 + movesTo_00001))
+BOOL aux44 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00002=(3 + movesTo_00002))
+BOOL aux45 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00004=(1 + movesTo_00004))
+BOOL aux46 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00003=(3 + movesTo_00003))
+BOOL aux47 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00005=(1 + movesTo_00005))
+BOOL aux48 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00006=(1 + movesTo_00006))
+BOOL aux49 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00004=(3 + movesTo_00004))
+BOOL aux50 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00007=(1 + movesTo_00007))
+BOOL aux51 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00005=(3 + movesTo_00005))
+BOOL aux52 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00006=(3 + movesTo_00006))
+BOOL aux53 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00008=(1 + movesTo_00008))
+BOOL aux54 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00007=(3 + movesTo_00007))
+BOOL aux55 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00009=(1 + movesTo_00009))
+BOOL aux56 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00008=(3 + movesTo_00008))
+BOOL aux57 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00009=(3 + movesTo_00009))
+BOOL aux58 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00011=(1 + movesTo_00011))
+BOOL aux59 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00010=(1 + movesTo_00010))
+BOOL aux60 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00011=(3 + movesTo_00011))
+BOOL aux61 #Active-CSE: 2 occurrences of this expression or equivalent: (movesFrom_00010=(3 + movesTo_00010))
+DISCRETE aux62 #Active-CSE: 2 occurrences of this expression or equivalent: (-3 + movesTo_00001)
+{0..8}
+DISCRETE aux63 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00009)
+{0..4}
+DISCRETE aux64 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00008)
+{0..5}
+DISCRETE aux65 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00005)
+{0..8}
+DISCRETE aux66 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00004)
+{0..9}
+DISCRETE aux67 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00007)
+{0..6}
+DISCRETE aux68 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00006)
+{0..7}
+DISCRETE aux69 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00003)
+{0..10}
+DISCRETE aux70 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00002)
+{0..11}
+BOOL aux71 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00012)
+DISCRETE aux72 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00011)
+{0..2}
+DISCRETE aux73 #Active-CSE: 2 occurrences of this expression or equivalent: (-1 + movesTo_00010)
+{0..3}
+BOOL aux74 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00010_00004=states_00011_00003)
+BOOL aux75 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00010_00005=states_00011_00004)
+BOOL aux76 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00010_00002=states_00011_00002)
+BOOL aux77 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00010_00003=states_00011_00002)
+BOOL aux78 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00010_00003=states_00011_00003)
+BOOL aux79 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00012_00002=states_00011_00002)
+BOOL aux80 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00012_00002=states_00011_00003)
+BOOL aux81 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00012_00003=states_00011_00004)
+BOOL aux82 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00010=states_00006_00009)
+BOOL aux83 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00003=states_00006_00002)
+BOOL aux84 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00003=states_00006_00003)
+BOOL aux85 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00002=states_00006_00002)
+BOOL aux86 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00005=states_00006_00004)
+BOOL aux87 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00005=states_00006_00005)
+BOOL aux88 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00004=states_00006_00004)
+BOOL aux89 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00004=states_00006_00003)
+BOOL aux90 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00007=states_00006_00006)
+BOOL aux91 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00007=states_00006_00007)
+BOOL aux92 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00006=states_00006_00006)
+BOOL aux93 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00006=states_00006_00005)
+BOOL aux94 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00009=states_00006_00008)
+BOOL aux95 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00008=states_00006_00008)
+BOOL aux96 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00005_00008=states_00006_00007)
+BOOL aux97 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00002=states_00010_00002)
+BOOL aux98 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00003=states_00010_00002)
+BOOL aux99 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00003=states_00010_00003)
+BOOL aux100 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00004=states_00010_00004)
+BOOL aux101 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00004=states_00010_00003)
+BOOL aux102 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00005=states_00010_00004)
+BOOL aux103 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00006=states_00010_00005)
+BOOL aux104 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00003=states_00008_00004)
+BOOL aux105 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00003=states_00008_00003)
+BOOL aux106 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00002=states_00008_00003)
+BOOL aux107 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00002=states_00008_00002)
+BOOL aux108 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00006=states_00008_00007)
+BOOL aux109 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00005=states_00008_00006)
+BOOL aux110 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00005=states_00008_00005)
+BOOL aux111 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00004=states_00008_00005)
+BOOL aux112 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00009_00004=states_00008_00004)
+BOOL aux113 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00010=states_00003_00010)
+BOOL aux114 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00010=states_00003_00011)
+BOOL aux115 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00011=states_00003_00012)
+BOOL aux116 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00002=states_00003_00002)
+BOOL aux117 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00004=states_00003_00004)
+BOOL aux118 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00004=states_00003_00005)
+BOOL aux119 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00003=states_00003_00003)
+BOOL aux120 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00003=states_00003_00004)
+BOOL aux121 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00006=states_00003_00007)
+BOOL aux122 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00006=states_00003_00006)
+BOOL aux123 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00005=states_00003_00005)
+BOOL aux124 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00005=states_00003_00006)
+BOOL aux125 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00008=states_00003_00009)
+BOOL aux126 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00008=states_00003_00008)
+BOOL aux127 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00007=states_00003_00008)
+BOOL aux128 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00007=states_00003_00007)
+BOOL aux129 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00009=states_00003_00010)
+BOOL aux130 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00009=states_00003_00009)
+BOOL aux131 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00008=states_00005_00007)
+BOOL aux132 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00008=states_00005_00008)
+BOOL aux133 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00007=states_00005_00007)
+BOOL aux134 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00007=states_00005_00006)
+BOOL aux135 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00006=states_00005_00005)
+BOOL aux136 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00006=states_00005_00006)
+BOOL aux137 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00005=states_00005_00005)
+BOOL aux138 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00005=states_00005_00004)
+BOOL aux139 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00004=states_00005_00003)
+BOOL aux140 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00004=states_00005_00004)
+BOOL aux141 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00003=states_00005_00003)
+BOOL aux142 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00003=states_00005_00002)
+BOOL aux143 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00002=states_00005_00002)
+BOOL aux144 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00009=states_00005_00009)
+BOOL aux145 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00009=states_00005_00008)
+BOOL aux146 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00010=states_00005_00009)
+BOOL aux147 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00004_00011=states_00005_00010)
+BOOL aux148 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00010=states_00003_00010)
+BOOL aux149 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00011=states_00003_00010)
+BOOL aux150 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00011=states_00003_00011)
+BOOL aux151 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00012=states_00003_00011)
+BOOL aux152 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00010=states_00003_00009)
+BOOL aux153 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00006=states_00003_00005)
+BOOL aux154 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00006=states_00003_00006)
+BOOL aux155 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00005=states_00003_00005)
+BOOL aux156 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00005=states_00003_00004)
+BOOL aux157 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00004=states_00003_00004)
+BOOL aux158 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00003=states_00003_00003)
+BOOL aux159 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00009=states_00003_00009)
+BOOL aux160 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00009=states_00003_00008)
+BOOL aux161 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00008=states_00003_00007)
+BOOL aux162 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00008=states_00003_00008)
+BOOL aux163 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00007=states_00003_00007)
+BOOL aux164 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00002_00007=states_00003_00006)
+BOOL aux165 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00002=states_00007_00002)
+BOOL aux166 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00006=states_00007_00005)
+BOOL aux167 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00006=states_00007_00006)
+BOOL aux168 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00005=states_00007_00005)
+BOOL aux169 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00005=states_00007_00004)
+BOOL aux170 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00004=states_00007_00003)
+BOOL aux171 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00004=states_00007_00004)
+BOOL aux172 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00003=states_00007_00003)
+BOOL aux173 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00003=states_00007_00002)
+BOOL aux174 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00009=states_00007_00008)
+BOOL aux175 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00008=states_00007_00007)
+BOOL aux176 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00007=states_00007_00007)
+BOOL aux177 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00006_00007=states_00007_00006)
+BOOL aux178 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00007=states_00008_00006)
+BOOL aux179 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00006=states_00008_00006)
+BOOL aux180 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00006=states_00008_00005)
+BOOL aux181 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00008=states_00008_00007)
+BOOL aux182 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00003=states_00008_00002)
+BOOL aux183 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00003=states_00008_00003)
+BOOL aux184 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00002=states_00008_00002)
+BOOL aux185 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00005=states_00008_00004)
+BOOL aux186 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00005=states_00008_00005)
+BOOL aux187 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00004=states_00008_00004)
+BOOL aux188 #Active-CSE: 2 occurrences of this expression or equivalent: (states_00007_00004=states_00008_00003)
+DISCRETE aux189 #
+{0..3}
+DISCRETE aux190 #
+{1..9}
+**CONSTRAINTS**
+w-inintervalset(aux190, [1,3,5,6,8,9])
+**VARIABLES**
+DISCRETE aux191 #
+{0..3}
+DISCRETE aux192 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux192, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux193 #
+{0..3}
+DISCRETE aux194 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux194, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux195 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux195, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux196 #
+{0..3}
+DISCRETE aux197 #
+{0..3}
+DISCRETE aux198 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux198, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux199 #
+{0..3}
+DISCRETE aux200 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux200, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux201 #
+{0..3}
+DISCRETE aux202 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux202, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux203 #
+{0..3}
+DISCRETE aux204 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux204, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux205 #
+{0..3}
+DISCRETE aux206 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux206, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux207 #
+{0..3}
+DISCRETE aux208 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux208, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux209 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux209, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux210 #
+{0..3}
+DISCRETE aux211 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux211, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux212 #
+{0..3}
+DISCRETE aux213 #
+{0..3}
+DISCRETE aux214 #
+{0..9}
+**CONSTRAINTS**
+w-inintervalset(aux214, [0,6,8,9])
+**VARIABLES**
+DISCRETE aux215 #(-2 + movesFrom_00004)
+{0..9}
+DISCRETE aux216 #(-4 + movesFrom_00001)
+{0..9}
+DISCRETE aux217 #(-3 + movesFrom_00003)
+{0..9}
+DISCRETE aux218 #(-4 + movesFrom_00002)
+{0..9}
+DISCRETE aux219 #(-2 + movesFrom_00005)
+{0..8}
+DISCRETE aux220 #(-2 + movesFrom_00006)
+{0..7}
+DISCRETE aux221 #(-2 + movesFrom_00007)
+{0..6}
+DISCRETE aux222 #(-2 + movesFrom_00008)
+{0..5}
+DISCRETE aux223 #(-2 + movesFrom_00009)
+{0..4}
+DISCRETE aux224 #(-2 + movesFrom_00010)
+{0..3}
+DISCRETE aux225 #(-2 + movesFrom_00011)
+{0..2}
+BOOL aux226 #(-2 + movesFrom_00012)
+BOOL aux227 #(3<movesTo_00001)
+BOOL aux228 #(4<movesTo_00001)
+BOOL aux229 #(5<movesTo_00001)
+BOOL aux230 #(6<movesTo_00001)
+BOOL aux231 #(7<movesTo_00001)
+BOOL aux232 #(8<movesTo_00001)
+BOOL aux233 #(9<movesTo_00001)
+BOOL aux234 #(10<movesTo_00001)
+BOOL aux235 #(1<movesTo_00002)
+BOOL aux236 #(2<movesTo_00002)
+BOOL aux237 #(3<movesTo_00002)
+BOOL aux238 #(4<movesTo_00002)
+BOOL aux239 #(5<movesTo_00002)
+BOOL aux240 #(6<movesTo_00002)
+BOOL aux241 #(7<movesTo_00002)
+BOOL aux242 #(8<movesTo_00002)
+BOOL aux243 #(9<movesTo_00002)
+BOOL aux244 #(10<movesTo_00002)
+BOOL aux245 #(11<movesTo_00002)
+BOOL aux246 #(1<movesTo_00003)
+BOOL aux247 #(2<movesTo_00003)
+BOOL aux248 #(3<movesTo_00003)
+BOOL aux249 #(4<movesTo_00003)
+BOOL aux250 #(5<movesTo_00003)
+BOOL aux251 #(6<movesTo_00003)
+BOOL aux252 #(7<movesTo_00003)
+BOOL aux253 #(8<movesTo_00003)
+BOOL aux254 #(9<movesTo_00003)
+BOOL aux255 #(10<movesTo_00003)
+BOOL aux256 #(1<movesTo_00004)
+BOOL aux257 #(2<movesTo_00004)
+BOOL aux258 #(3<movesTo_00004)
+BOOL aux259 #(4<movesTo_00004)
+BOOL aux260 #(5<movesTo_00004)
+BOOL aux261 #(6<movesTo_00004)
+BOOL aux262 #(7<movesTo_00004)
+BOOL aux263 #(8<movesTo_00004)
+BOOL aux264 #(9<movesTo_00004)
+BOOL aux265 #(1<movesTo_00005)
+BOOL aux266 #(2<movesTo_00005)
+BOOL aux267 #(3<movesTo_00005)
+BOOL aux268 #(4<movesTo_00005)
+BOOL aux269 #(5<movesTo_00005)
+BOOL aux270 #(6<movesTo_00005)
+BOOL aux271 #(7<movesTo_00005)
+BOOL aux272 #(8<movesTo_00005)
+BOOL aux273 #(1<movesTo_00006)
+BOOL aux274 #(2<movesTo_00006)
+BOOL aux275 #(3<movesTo_00006)
+BOOL aux276 #(4<movesTo_00006)
+BOOL aux277 #(5<movesTo_00006)
+BOOL aux278 #(6<movesTo_00006)
+BOOL aux279 #(7<movesTo_00006)
+BOOL aux280 #(1<movesTo_00007)
+BOOL aux281 #(2<movesTo_00007)
+BOOL aux282 #(3<movesTo_00007)
+BOOL aux283 #(4<movesTo_00007)
+BOOL aux284 #(5<movesTo_00007)
+BOOL aux285 #(6<movesTo_00007)
+BOOL aux286 #(1<movesTo_00008)
+BOOL aux287 #(2<movesTo_00008)
+BOOL aux288 #(3<movesTo_00008)
+BOOL aux289 #(4<movesTo_00008)
+BOOL aux290 #(5<movesTo_00008)
+BOOL aux291 #(1<movesTo_00009)
+BOOL aux292 #(2<movesTo_00009)
+BOOL aux293 #(3<movesTo_00009)
+BOOL aux294 #(4<movesTo_00009)
+BOOL aux295 #(1<movesTo_00010)
+BOOL aux296 #(2<movesTo_00010)
+BOOL aux297 #(3<movesTo_00010)
+BOOL aux298 #(1<movesTo_00011)
+BOOL aux299 #(2<movesTo_00011)
+BOOL aux300 #(1<movesTo_00012)
+**VARIABLES**
+ALIAS cards[14]=[47, 17, 28, 32, 6, 16, 48, 1, 2, 31, 34, 35, 5, 13]
+**SEARCH**
+PRINT[[moves_00001],[moves_00002],[moves_00003],[moves_00004],[moves_00005],[moves_00006],[moves_00007],[moves_00008],[moves_00009],[moves_00010],[moves_00011],[movesFrom_00001],[movesFrom_00002],[movesFrom_00003],[movesFrom_00004],[movesFrom_00005],[movesFrom_00006],[movesFrom_00007],[movesFrom_00008],[movesFrom_00009],[movesFrom_00010],[movesFrom_00011],[movesFrom_00012],[movesTo_00001],[movesTo_00002],[movesTo_00003],[movesTo_00004],[movesTo_00005],[movesTo_00006],[movesTo_00007],[movesTo_00008],[movesTo_00009],[movesTo_00010],[movesTo_00011],[movesTo_00012],[states_00002_00003],[states_00002_00004],[states_00002_00005],[states_00002_00006],[states_00002_00007],[states_00002_00008],[states_00002_00009],[states_00002_00010],[states_00002_00011],[states_00002_00012],[states_00003_00001],[states_00003_00002],[states_00003_00003],[states_00003_00004],[states_00003_00005],[states_00003_00006],[states_00003_00007],[states_00003_00008],[states_00003_00009],[states_00003_00010],[states_00003_00011],[states_00003_00012],[states_00004_00001],[states_00004_00002],[states_00004_00003],[states_00004_00004],[states_00004_00005],[states_00004_00006],[states_00004_00007],[states_00004_00008],[states_00004_00009],[states_00004_00010],[states_00004_00011],[states_00005_00001],[states_00005_00002],[states_00005_00003],[states_00005_00004],[states_00005_00005],[states_00005_00006],[states_00005_00007],[states_00005_00008],[states_00005_00009],[states_00005_00010],[states_00006_00001],[states_00006_00002],[states_00006_00003],[states_00006_00004],[states_00006_00005],[states_00006_00006],[states_00006_00007],[states_00006_00008],[states_00006_00009],[states_00007_00001],[states_00007_00002],[states_00007_00003],[states_00007_00004],[states_00007_00005],[states_00007_00006],[states_00007_00007],[states_00007_00008],[states_00008_00001],[states_00008_00002],[states_00008_00003],[states_00008_00004],[states_00008_00005],[states_00008_00006],[states_00008_00007],[states_00009_00001],[states_00009_00002],[states_00009_00003],[states_00009_00004],[states_00009_00005],[states_00009_00006],[states_00010_00001],[states_00010_00002],[states_00010_00003],[states_00010_00004],[states_00010_00005],[states_00011_00001],[states_00011_00002],[states_00011_00003],[states_00011_00004],[states_00012_00001],[states_00012_00002],[states_00012_00003],[states_00013_00001],[states_00014_00001]]
+VARORDER STATIC [moves_00001, moves_00002, moves_00003, moves_00004, moves_00005, moves_00006, moves_00007, moves_00008, moves_00009, moves_00010, moves_00011, movesFrom_00001, movesFrom_00002, movesFrom_00003, movesFrom_00004, movesFrom_00005, movesFrom_00006, movesFrom_00007, movesFrom_00008, movesFrom_00009, movesFrom_00010, movesFrom_00011, movesFrom_00012, movesTo_00001, movesTo_00002, movesTo_00003, movesTo_00004, movesTo_00005, movesTo_00006, movesTo_00007, movesTo_00008, movesTo_00009, movesTo_00010, movesTo_00011, movesTo_00012, states_00002_00003, states_00002_00004, states_00002_00005, states_00002_00006, states_00002_00007, states_00002_00008, states_00002_00009, states_00002_00010, states_00002_00011, states_00002_00012, states_00003_00001, states_00003_00002, states_00003_00003, states_00003_00004, states_00003_00005, states_00003_00006, states_00003_00007, states_00003_00008, states_00003_00009, states_00003_00010, states_00003_00011, states_00003_00012, states_00004_00001, states_00004_00002, states_00004_00003, states_00004_00004, states_00004_00005, states_00004_00006, states_00004_00007, states_00004_00008, states_00004_00009, states_00004_00010, states_00004_00011, states_00005_00001, states_00005_00002, states_00005_00003, states_00005_00004, states_00005_00005, states_00005_00006, states_00005_00007, states_00005_00008, states_00005_00009, states_00005_00010, states_00006_00001, states_00006_00002, states_00006_00003, states_00006_00004, states_00006_00005, states_00006_00006, states_00006_00007, states_00006_00008, states_00006_00009, states_00007_00001, states_00007_00002, states_00007_00003, states_00007_00004, states_00007_00005, states_00007_00006, states_00007_00007, states_00007_00008, states_00008_00001, states_00008_00002, states_00008_00003, states_00008_00004, states_00008_00005, states_00008_00006, states_00008_00007, states_00009_00001, states_00009_00002, states_00009_00003, states_00009_00004, states_00009_00005, states_00009_00006, states_00010_00001, states_00010_00002, states_00010_00003, states_00010_00004, states_00010_00005, states_00011_00001, states_00011_00002, states_00011_00003, states_00011_00004, states_00012_00001, states_00012_00002, states_00012_00003, states_00013_00001, states_00014_00001]
+**CONSTRAINTS**
+reify(ineq(3, movesTo_00001, -1), aux227)
+reify(ineq(4, movesTo_00001, -1), aux228)
+reify(ineq(5, movesTo_00001, -1), aux229)
+reify(ineq(6, movesTo_00001, -1), aux230)
+reify(ineq(7, movesTo_00001, -1), aux231)
+reify(ineq(8, movesTo_00001, -1), aux232)
+reify(ineq(9, movesTo_00001, -1), aux233)
+reify(ineq(10, movesTo_00001, -1), aux234)
+reify(ineq(1, movesTo_00002, -1), aux235)
+reify(ineq(2, movesTo_00002, -1), aux236)
+reify(ineq(3, movesTo_00002, -1), aux237)
+reify(ineq(4, movesTo_00002, -1), aux238)
+reify(ineq(5, movesTo_00002, -1), aux239)
+reify(ineq(6, movesTo_00002, -1), aux240)
+reify(ineq(7, movesTo_00002, -1), aux241)
+reify(ineq(8, movesTo_00002, -1), aux242)
+reify(ineq(9, movesTo_00002, -1), aux243)
+reify(ineq(10, movesTo_00002, -1), aux244)
+reify(ineq(11, movesTo_00002, -1), aux245)
+reify(ineq(1, movesTo_00003, -1), aux246)
+reify(ineq(2, movesTo_00003, -1), aux247)
+reify(ineq(3, movesTo_00003, -1), aux248)
+reify(ineq(4, movesTo_00003, -1), aux249)
+reify(ineq(5, movesTo_00003, -1), aux250)
+reify(ineq(6, movesTo_00003, -1), aux251)
+reify(ineq(7, movesTo_00003, -1), aux252)
+reify(ineq(8, movesTo_00003, -1), aux253)
+reify(ineq(9, movesTo_00003, -1), aux254)
+reify(ineq(10, movesTo_00003, -1), aux255)
+reify(ineq(1, movesTo_00004, -1), aux256)
+reify(ineq(2, movesTo_00004, -1), aux257)
+reify(ineq(3, movesTo_00004, -1), aux258)
+reify(ineq(4, movesTo_00004, -1), aux259)
+reify(ineq(5, movesTo_00004, -1), aux260)
+reify(ineq(6, movesTo_00004, -1), aux261)
+reify(ineq(7, movesTo_00004, -1), aux262)
+reify(ineq(8, movesTo_00004, -1), aux263)
+reify(ineq(9, movesTo_00004, -1), aux264)
+reify(ineq(1, movesTo_00005, -1), aux265)
+reify(ineq(2, movesTo_00005, -1), aux266)
+reify(ineq(3, movesTo_00005, -1), aux267)
+reify(ineq(4, movesTo_00005, -1), aux268)
+reify(ineq(5, movesTo_00005, -1), aux269)
+reify(ineq(6, movesTo_00005, -1), aux270)
+reify(ineq(7, movesTo_00005, -1), aux271)
+reify(ineq(8, movesTo_00005, -1), aux272)
+reify(ineq(1, movesTo_00006, -1), aux273)
+reify(ineq(2, movesTo_00006, -1), aux274)
+reify(ineq(3, movesTo_00006, -1), aux275)
+reify(ineq(4, movesTo_00006, -1), aux276)
+reify(ineq(5, movesTo_00006, -1), aux277)
+reify(ineq(6, movesTo_00006, -1), aux278)
+reify(ineq(7, movesTo_00006, -1), aux279)
+reify(ineq(1, movesTo_00007, -1), aux280)
+reify(ineq(2, movesTo_00007, -1), aux281)
+reify(ineq(3, movesTo_00007, -1), aux282)
+reify(ineq(4, movesTo_00007, -1), aux283)
+reify(ineq(5, movesTo_00007, -1), aux284)
+reify(ineq(6, movesTo_00007, -1), aux285)
+reify(ineq(1, movesTo_00008, -1), aux286)
+reify(ineq(2, movesTo_00008, -1), aux287)
+reify(ineq(3, movesTo_00008, -1), aux288)
+reify(ineq(4, movesTo_00008, -1), aux289)
+reify(ineq(5, movesTo_00008, -1), aux290)
+reify(ineq(1, movesTo_00009, -1), aux291)
+reify(ineq(2, movesTo_00009, -1), aux292)
+reify(ineq(3, movesTo_00009, -1), aux293)
+reify(ineq(4, movesTo_00009, -1), aux294)
+reify(ineq(1, movesTo_00010, -1), aux295)
+reify(ineq(2, movesTo_00010, -1), aux296)
+reify(ineq(3, movesTo_00010, -1), aux297)
+reify(ineq(1, movesTo_00011, -1), aux298)
+reify(ineq(2, movesTo_00011, -1), aux299)
+reify(ineq(1, movesTo_00012, -1), aux300)
+div(aux19, 13, aux189)
+modulo(aux19,13,aux190)
+div(aux16, 13, aux191)
+modulo(aux22,13,aux192)
+div(aux17, 13, aux193)
+modulo(aux17,13,aux194)
+modulo(aux18,13,aux195)
+div(aux18, 13, aux196)
+div(aux23, 13, aux197)
+modulo(aux23,13,aux198)
+div(aux26, 13, aux199)
+modulo(aux26,13,aux200)
+div(aux29, 13, aux201)
+modulo(aux29,13,aux202)
+div(aux30, 13, aux203)
+modulo(aux30,13,aux204)
+div(aux33, 13, aux205)
+modulo(aux32,13,aux206)
+div(aux34, 13, aux207)
+modulo(aux34,13,aux208)
+modulo(aux37,13,aux209)
+div(aux36, 13, aux210)
+modulo(aux39,13,aux211)
+div(aux38, 13, aux212)
+div(states_00013_00001, 13, aux213)
+modulo(states_00014_00001,13,aux214)
+watchelement([47, 17, states_00002_00003, states_00002_00004, states_00002_00005, states_00002_00006, states_00002_00007, states_00002_00008, states_00002_00009, states_00002_00010, states_00002_00011, states_00002_00012], aux70, aux16)
+watchelement([states_00003_00001, states_00003_00002, states_00003_00003, states_00003_00004, states_00003_00005, states_00003_00006, states_00003_00007, states_00003_00008, states_00003_00009, states_00003_00010, states_00003_00011], aux69, aux17)
+watchelement([states_00004_00002, states_00004_00003, states_00004_00004, states_00004_00005, states_00004_00006, states_00004_00007, states_00004_00008, states_00004_00009, states_00004_00010, states_00004_00011], aux215, aux18)
+watchelement([32, 6, 16, 48, 1, 2, 31, 34, 35, 5], aux216, aux19)
+watchelement([states_00004_00001, states_00004_00002, states_00004_00003, states_00004_00004, states_00004_00005, states_00004_00006, states_00004_00007, states_00004_00008, states_00004_00009, states_00004_00010], aux66, aux20)
+watchelement([states_00003_00003, states_00003_00004, states_00003_00005, states_00003_00006, states_00003_00007, states_00003_00008, states_00003_00009, states_00003_00010, states_00003_00011, states_00003_00012], aux217, aux21)
+watchelement([states_00002_00004, states_00002_00005, states_00002_00006, states_00002_00007, states_00002_00008, states_00002_00009, states_00002_00010, states_00002_00011, states_00002_00012, 13], aux218, aux22)
+watchelement([states_00005_00002, states_00005_00003, states_00005_00004, states_00005_00005, states_00005_00006, states_00005_00007, states_00005_00008, states_00005_00009, states_00005_00010], aux219, aux23)
+watchelement([states_00005_00001, states_00005_00002, states_00005_00003, states_00005_00004, states_00005_00005, states_00005_00006, states_00005_00007, states_00005_00008, states_00005_00009], aux65, aux24)
+watchelement([28, 32, 6, 16, 48, 1, 2, 31, 34], aux62, aux25)
+watchelement([states_00006_00001, states_00006_00002, states_00006_00003, states_00006_00004, states_00006_00005, states_00006_00006, states_00006_00007, states_00006_00008], aux68, aux26)
+watchelement([states_00006_00002, states_00006_00003, states_00006_00004, states_00006_00005, states_00006_00006, states_00006_00007, states_00006_00008, states_00006_00009], aux220, aux27)
+watchelement([states_00007_00002, states_00007_00003, states_00007_00004, states_00007_00005, states_00007_00006, states_00007_00007, states_00007_00008], aux221, aux28)
+watchelement([states_00007_00001, states_00007_00002, states_00007_00003, states_00007_00004, states_00007_00005, states_00007_00006, states_00007_00007], aux67, aux29)
+watchelement([states_00008_00001, states_00008_00002, states_00008_00003, states_00008_00004, states_00008_00005, states_00008_00006], aux64, aux30)
+watchelement([states_00008_00002, states_00008_00003, states_00008_00004, states_00008_00005, states_00008_00006, states_00008_00007], aux222, aux31)
+watchelement([states_00009_00001, states_00009_00002, states_00009_00003, states_00009_00004, states_00009_00005], aux63, aux32)
+watchelement([states_00009_00002, states_00009_00003, states_00009_00004, states_00009_00005, states_00009_00006], aux223, aux33)
+watchelement([states_00010_00001, states_00010_00002, states_00010_00003, states_00010_00004], aux73, aux34)
+watchelement([states_00010_00002, states_00010_00003, states_00010_00004, states_00010_00005], aux224, aux35)
+watchelement([states_00011_00001, states_00011_00002, states_00011_00003], aux72, aux36)
+watchelement([states_00011_00002, states_00011_00003, states_00011_00004], aux225, aux37)
+watchelement([states_00012_00002, states_00012_00003], aux226, aux38)
+watchelement([states_00012_00001, states_00012_00002], aux71, aux39)
+reify(watched-and({sumleq([1,movesTo_00001],movesFrom_00001),sumgeq([1,movesTo_00001],movesFrom_00001)}), aux40)
+reify(watched-and({sumleq([1,movesTo_00002],movesFrom_00002),sumgeq([1,movesTo_00002],movesFrom_00002)}), aux41)
+reify(watched-and({sumleq([1,movesTo_00003],movesFrom_00003),sumgeq([1,movesTo_00003],movesFrom_00003)}), aux42)
+reify(watched-and({sumleq([3,movesTo_00001],movesFrom_00001),sumgeq([3,movesTo_00001],movesFrom_00001)}), aux43)
+reify(watched-and({sumleq([3,movesTo_00002],movesFrom_00002),sumgeq([3,movesTo_00002],movesFrom_00002)}), aux44)
+reify(watched-and({sumleq([1,movesTo_00004],movesFrom_00004),sumgeq([1,movesTo_00004],movesFrom_00004)}), aux45)
+reify(watched-and({sumleq([3,movesTo_00003],movesFrom_00003),sumgeq([3,movesTo_00003],movesFrom_00003)}), aux46)
+reify(watched-and({sumleq([1,movesTo_00005],movesFrom_00005),sumgeq([1,movesTo_00005],movesFrom_00005)}), aux47)
+reify(watched-and({sumleq([1,movesTo_00006],movesFrom_00006),sumgeq([1,movesTo_00006],movesFrom_00006)}), aux48)
+reify(watched-and({sumleq([3,movesTo_00004],movesFrom_00004),sumgeq([3,movesTo_00004],movesFrom_00004)}), aux49)
+reify(watched-and({sumleq([1,movesTo_00007],movesFrom_00007),sumgeq([1,movesTo_00007],movesFrom_00007)}), aux50)
+reify(watched-and({sumleq([3,movesTo_00005],movesFrom_00005),sumgeq([3,movesTo_00005],movesFrom_00005)}), aux51)
+reify(watched-and({sumleq([3,movesTo_00006],movesFrom_00006),sumgeq([3,movesTo_00006],movesFrom_00006)}), aux52)
+reify(watched-and({sumleq([1,movesTo_00008],movesFrom_00008),sumgeq([1,movesTo_00008],movesFrom_00008)}), aux53)
+reify(watched-and({sumleq([3,movesTo_00007],movesFrom_00007),sumgeq([3,movesTo_00007],movesFrom_00007)}), aux54)
+reify(watched-and({sumleq([1,movesTo_00009],movesFrom_00009),sumgeq([1,movesTo_00009],movesFrom_00009)}), aux55)
+reify(watched-and({sumleq([3,movesTo_00008],movesFrom_00008),sumgeq([3,movesTo_00008],movesFrom_00008)}), aux56)
+reify(watched-and({sumleq([3,movesTo_00009],movesFrom_00009),sumgeq([3,movesTo_00009],movesFrom_00009)}), aux57)
+reify(watched-and({sumleq([1,movesTo_00011],movesFrom_00011),sumgeq([1,movesTo_00011],movesFrom_00011)}), aux58)
+reify(watched-and({sumleq([1,movesTo_00010],movesFrom_00010),sumgeq([1,movesTo_00010],movesFrom_00010)}), aux59)
+reify(sumleq([3,movesTo_00011],movesFrom_00011), aux60)
+reify(watched-and({sumleq([3,movesTo_00010],movesFrom_00010),sumgeq([3,movesTo_00010],movesFrom_00010)}), aux61)
+reify(gaceq(states_00010_00004,states_00011_00003), aux74)
+reify(gaceq(states_00010_00005,states_00011_00004), aux75)
+reify(gaceq(states_00010_00002,states_00011_00002), aux76)
+reify(gaceq(states_00010_00003,states_00011_00002), aux77)
+reify(gaceq(states_00010_00003,states_00011_00003), aux78)
+reify(gaceq(states_00012_00002,states_00011_00002), aux79)
+reify(gaceq(states_00012_00002,states_00011_00003), aux80)
+reify(gaceq(states_00012_00003,states_00011_00004), aux81)
+reify(gaceq(states_00005_00010,states_00006_00009), aux82)
+reify(gaceq(states_00005_00003,states_00006_00002), aux83)
+reify(gaceq(states_00005_00003,states_00006_00003), aux84)
+reify(gaceq(states_00005_00002,states_00006_00002), aux85)
+reify(gaceq(states_00005_00005,states_00006_00004), aux86)
+reify(gaceq(states_00005_00005,states_00006_00005), aux87)
+reify(gaceq(states_00005_00004,states_00006_00004), aux88)
+reify(gaceq(states_00005_00004,states_00006_00003), aux89)
+reify(gaceq(states_00005_00007,states_00006_00006), aux90)
+reify(gaceq(states_00005_00007,states_00006_00007), aux91)
+reify(gaceq(states_00005_00006,states_00006_00006), aux92)
+reify(gaceq(states_00005_00006,states_00006_00005), aux93)
+reify(gaceq(states_00005_00009,states_00006_00008), aux94)
+reify(gaceq(states_00005_00008,states_00006_00008), aux95)
+reify(gaceq(states_00005_00008,states_00006_00007), aux96)
+reify(gaceq(states_00009_00002,states_00010_00002), aux97)
+reify(gaceq(states_00009_00003,states_00010_00002), aux98)
+reify(gaceq(states_00009_00003,states_00010_00003), aux99)
+reify(gaceq(states_00009_00004,states_00010_00004), aux100)
+reify(gaceq(states_00009_00004,states_00010_00003), aux101)
+reify(gaceq(states_00009_00005,states_00010_00004), aux102)
+reify(gaceq(states_00009_00006,states_00010_00005), aux103)
+reify(gaceq(states_00009_00003,states_00008_00004), aux104)
+reify(gaceq(states_00009_00003,states_00008_00003), aux105)
+reify(gaceq(states_00009_00002,states_00008_00003), aux106)
+reify(gaceq(states_00009_00002,states_00008_00002), aux107)
+reify(gaceq(states_00009_00006,states_00008_00007), aux108)
+reify(gaceq(states_00009_00005,states_00008_00006), aux109)
+reify(gaceq(states_00009_00005,states_00008_00005), aux110)
+reify(gaceq(states_00009_00004,states_00008_00005), aux111)
+reify(gaceq(states_00009_00004,states_00008_00004), aux112)
+reify(gaceq(states_00004_00010,states_00003_00010), aux113)
+reify(gaceq(states_00004_00010,states_00003_00011), aux114)
+reify(gaceq(states_00004_00011,states_00003_00012), aux115)
+reify(gaceq(states_00004_00002,states_00003_00002), aux116)
+reify(gaceq(states_00004_00004,states_00003_00004), aux117)
+reify(gaceq(states_00004_00004,states_00003_00005), aux118)
+reify(gaceq(states_00004_00003,states_00003_00003), aux119)
+reify(gaceq(states_00004_00003,states_00003_00004), aux120)
+reify(gaceq(states_00004_00006,states_00003_00007), aux121)
+reify(gaceq(states_00004_00006,states_00003_00006), aux122)
+reify(gaceq(states_00004_00005,states_00003_00005), aux123)
+reify(gaceq(states_00004_00005,states_00003_00006), aux124)
+reify(gaceq(states_00004_00008,states_00003_00009), aux125)
+reify(gaceq(states_00004_00008,states_00003_00008), aux126)
+reify(gaceq(states_00004_00007,states_00003_00008), aux127)
+reify(gaceq(states_00004_00007,states_00003_00007), aux128)
+reify(gaceq(states_00004_00009,states_00003_00010), aux129)
+reify(gaceq(states_00004_00009,states_00003_00009), aux130)
+reify(gaceq(states_00004_00008,states_00005_00007), aux131)
+reify(gaceq(states_00004_00008,states_00005_00008), aux132)
+reify(gaceq(states_00004_00007,states_00005_00007), aux133)
+reify(gaceq(states_00004_00007,states_00005_00006), aux134)
+reify(gaceq(states_00004_00006,states_00005_00005), aux135)
+reify(gaceq(states_00004_00006,states_00005_00006), aux136)
+reify(gaceq(states_00004_00005,states_00005_00005), aux137)
+reify(gaceq(states_00004_00005,states_00005_00004), aux138)
+reify(gaceq(states_00004_00004,states_00005_00003), aux139)
+reify(gaceq(states_00004_00004,states_00005_00004), aux140)
+reify(gaceq(states_00004_00003,states_00005_00003), aux141)
+reify(gaceq(states_00004_00003,states_00005_00002), aux142)
+reify(gaceq(states_00004_00002,states_00005_00002), aux143)
+reify(gaceq(states_00004_00009,states_00005_00009), aux144)
+reify(gaceq(states_00004_00009,states_00005_00008), aux145)
+reify(gaceq(states_00004_00010,states_00005_00009), aux146)
+reify(gaceq(states_00004_00011,states_00005_00010), aux147)
+reify(gaceq(states_00002_00010,states_00003_00010), aux148)
+reify(gaceq(states_00002_00011,states_00003_00010), aux149)
+reify(gaceq(states_00002_00011,states_00003_00011), aux150)
+reify(gaceq(states_00002_00012,states_00003_00011), aux151)
+reify(gaceq(states_00002_00010,states_00003_00009), aux152)
+reify(gaceq(states_00002_00006,states_00003_00005), aux153)
+reify(gaceq(states_00002_00006,states_00003_00006), aux154)
+reify(gaceq(states_00002_00005,states_00003_00005), aux155)
+reify(gaceq(states_00002_00005,states_00003_00004), aux156)
+reify(gaceq(states_00002_00004,states_00003_00004), aux157)
+reify(gaceq(states_00002_00003,states_00003_00003), aux158)
+reify(gaceq(states_00002_00009,states_00003_00009), aux159)
+reify(gaceq(states_00002_00009,states_00003_00008), aux160)
+reify(gaceq(states_00002_00008,states_00003_00007), aux161)
+reify(gaceq(states_00002_00008,states_00003_00008), aux162)
+reify(gaceq(states_00002_00007,states_00003_00007), aux163)
+reify(gaceq(states_00002_00007,states_00003_00006), aux164)
+reify(gaceq(states_00006_00002,states_00007_00002), aux165)
+reify(gaceq(states_00006_00006,states_00007_00005), aux166)
+reify(gaceq(states_00006_00006,states_00007_00006), aux167)
+reify(gaceq(states_00006_00005,states_00007_00005), aux168)
+reify(gaceq(states_00006_00005,states_00007_00004), aux169)
+reify(gaceq(states_00006_00004,states_00007_00003), aux170)
+reify(gaceq(states_00006_00004,states_00007_00004), aux171)
+reify(gaceq(states_00006_00003,states_00007_00003), aux172)
+reify(gaceq(states_00006_00003,states_00007_00002), aux173)
+reify(gaceq(states_00006_00009,states_00007_00008), aux174)
+reify(gaceq(states_00006_00008,states_00007_00007), aux175)
+reify(gaceq(states_00006_00007,states_00007_00007), aux176)
+reify(gaceq(states_00006_00007,states_00007_00006), aux177)
+reify(gaceq(states_00007_00007,states_00008_00006), aux178)
+reify(gaceq(states_00007_00006,states_00008_00006), aux179)
+reify(gaceq(states_00007_00006,states_00008_00005), aux180)
+reify(gaceq(states_00007_00008,states_00008_00007), aux181)
+reify(gaceq(states_00007_00003,states_00008_00002), aux182)
+reify(gaceq(states_00007_00003,states_00008_00003), aux183)
+reify(gaceq(states_00007_00002,states_00008_00002), aux184)
+reify(gaceq(states_00007_00005,states_00008_00004), aux185)
+reify(gaceq(states_00007_00005,states_00008_00005), aux186)
+reify(gaceq(states_00007_00004,states_00008_00004), aux187)
+reify(gaceq(states_00007_00004,states_00008_00003), aux188)
+watched-or({diseq(1,moves_00001),w-literal(states_00002_00004,6),ineq(4, movesTo_00001, 0)})
+watched-or({diseq(1,moves_00001),w-literal(states_00002_00005,16),ineq(5, movesTo_00001, 0)})
+watched-or({diseq(1,moves_00001),w-literal(states_00002_00006,48),ineq(6, movesTo_00001, 0)})
+watched-or({diseq(1,moves_00001),w-literal(states_00002_00007,1),ineq(7, movesTo_00001, 0)})
+watched-or({diseq(1,moves_00001),w-literal(states_00002_00008,2),ineq(8, movesTo_00001, 0)})
+watched-or({diseq(1,moves_00001),w-literal(states_00002_00009,31),ineq(9, movesTo_00001, 0)})
+watched-or({diseq(1,moves_00001),w-literal(states_00002_00010,34),ineq(10, movesTo_00001, 0)})
+watched-or({diseq(1,moves_00001),w-literal(states_00002_00011,35),ineq(11, movesTo_00001, 0)})
+watched-or({diseq(1,moves_00001),w-literal(states_00002_00012,5)})
+watched-or({diseq(1,moves_00002),ineq(2, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00002),gaceq(states_00002_00004,states_00003_00003),ineq(3, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00002),w-literal(aux156,1),ineq(4, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00002),w-literal(aux153,1),ineq(5, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00002),w-literal(aux164,1),ineq(6, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00002),w-literal(aux161,1),ineq(7, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00002),w-literal(aux160,1),ineq(8, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00002),w-literal(aux152,1),ineq(9, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00002),w-literal(aux149,1),ineq(10, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00002),w-literal(aux151,1),ineq(11, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00002),w-literal(states_00003_00012,13),ineq(12, movesTo_00002, 0)})
+watched-or({diseq(1,moves_00003),gaceq(states_00004_00002,states_00003_00003),ineq(2, movesTo_00003, 0)})
+watched-or({diseq(1,moves_00003),w-literal(aux120,1),ineq(3, movesTo_00003, 0)})
+watched-or({diseq(1,moves_00003),w-literal(aux118,1),ineq(4, movesTo_00003, 0)})
+watched-or({diseq(1,moves_00003),w-literal(aux124,1),ineq(5, movesTo_00003, 0)})
+watched-or({diseq(1,moves_00003),w-literal(aux121,1),ineq(6, movesTo_00003, 0)})
+watched-or({diseq(1,moves_00003),w-literal(aux127,1),ineq(7, movesTo_00003, 0)})
+watched-or({diseq(1,moves_00003),w-literal(aux125,1),ineq(8, movesTo_00003, 0)})
+watched-or({diseq(1,moves_00003),w-literal(aux129,1),ineq(9, movesTo_00003, 0)})
+watched-or({diseq(1,moves_00003),w-literal(aux114,1),ineq(10, movesTo_00003, 0)})
+watched-or({diseq(1,moves_00003),w-literal(aux115,1),ineq(11, movesTo_00003, 0)})
+watched-or({diseq(1,moves_00004),w-literal(aux142,1),ineq(2, movesTo_00004, 0)})
+watched-or({diseq(1,moves_00004),w-literal(aux139,1),ineq(3, movesTo_00004, 0)})
+watched-or({diseq(1,moves_00004),w-literal(aux138,1),ineq(4, movesTo_00004, 0)})
+watched-or({diseq(1,moves_00004),w-literal(aux135,1),ineq(5, movesTo_00004, 0)})
+watched-or({diseq(1,moves_00004),w-literal(aux134,1),ineq(6, movesTo_00004, 0)})
+watched-or({diseq(1,moves_00004),w-literal(aux131,1),ineq(7, movesTo_00004, 0)})
+watched-or({diseq(1,moves_00004),w-literal(aux145,1),ineq(8, movesTo_00004, 0)})
+watched-or({diseq(1,moves_00004),w-literal(aux146,1),ineq(9, movesTo_00004, 0)})
+watched-or({diseq(1,moves_00004),w-literal(aux147,1),ineq(10, movesTo_00004, 0)})
+watched-or({diseq(1,moves_00005),w-literal(aux83,1),ineq(2, movesTo_00005, 0)})
+watched-or({diseq(1,moves_00005),w-literal(aux89,1),ineq(3, movesTo_00005, 0)})
+watched-or({diseq(1,moves_00005),w-literal(aux86,1),ineq(4, movesTo_00005, 0)})
+watched-or({diseq(1,moves_00005),w-literal(aux93,1),ineq(5, movesTo_00005, 0)})
+watched-or({diseq(1,moves_00005),w-literal(aux90,1),ineq(6, movesTo_00005, 0)})
+watched-or({diseq(1,moves_00005),w-literal(aux96,1),ineq(7, movesTo_00005, 0)})
+watched-or({diseq(1,moves_00005),w-literal(aux94,1),ineq(8, movesTo_00005, 0)})
+watched-or({diseq(1,moves_00005),w-literal(aux82,1),ineq(9, movesTo_00005, 0)})
+watched-or({diseq(1,moves_00006),w-literal(aux173,1),ineq(2, movesTo_00006, 0)})
+watched-or({diseq(1,moves_00006),w-literal(aux170,1),ineq(3, movesTo_00006, 0)})
+watched-or({diseq(1,moves_00006),w-literal(aux169,1),ineq(4, movesTo_00006, 0)})
+watched-or({diseq(1,moves_00006),w-literal(aux166,1),ineq(5, movesTo_00006, 0)})
+watched-or({diseq(1,moves_00006),w-literal(aux177,1),ineq(6, movesTo_00006, 0)})
+watched-or({diseq(1,moves_00006),w-literal(aux175,1),ineq(7, movesTo_00006, 0)})
+watched-or({diseq(1,moves_00006),w-literal(aux174,1),ineq(8, movesTo_00006, 0)})
+watched-or({diseq(1,moves_00007),w-literal(aux182,1),ineq(2, movesTo_00007, 0)})
+watched-or({diseq(1,moves_00007),w-literal(aux188,1),ineq(3, movesTo_00007, 0)})
+watched-or({diseq(1,moves_00007),w-literal(aux185,1),ineq(4, movesTo_00007, 0)})
+watched-or({diseq(1,moves_00007),w-literal(aux180,1),ineq(5, movesTo_00007, 0)})
+watched-or({diseq(1,moves_00007),w-literal(aux178,1),ineq(6, movesTo_00007, 0)})
+watched-or({diseq(1,moves_00007),w-literal(aux181,1),ineq(7, movesTo_00007, 0)})
+watched-or({diseq(1,moves_00008),w-literal(aux106,1),ineq(2, movesTo_00008, 0)})
+watched-or({diseq(1,moves_00008),w-literal(aux104,1),ineq(3, movesTo_00008, 0)})
+watched-or({diseq(1,moves_00008),w-literal(aux111,1),ineq(4, movesTo_00008, 0)})
+watched-or({diseq(1,moves_00008),w-literal(aux109,1),ineq(5, movesTo_00008, 0)})
+watched-or({diseq(1,moves_00008),w-literal(aux108,1),ineq(6, movesTo_00008, 0)})
+watched-or({diseq(1,moves_00009),w-literal(aux98,1),ineq(2, movesTo_00009, 0)})
+watched-or({diseq(1,moves_00009),w-literal(aux101,1),ineq(3, movesTo_00009, 0)})
+watched-or({diseq(1,moves_00009),w-literal(aux102,1),ineq(4, movesTo_00009, 0)})
+watched-or({diseq(1,moves_00009),w-literal(aux103,1),ineq(5, movesTo_00009, 0)})
+watched-or({diseq(1,moves_00010),ineq(2, movesTo_00010, 0),w-literal(aux77,1)})
+watched-or({diseq(1,moves_00010),ineq(3, movesTo_00010, 0),w-literal(aux74,1)})
+watched-or({diseq(1,moves_00010),ineq(4, movesTo_00010, 0),w-literal(aux75,1)})
+watched-or({diseq(1,moves_00011),w-literal(aux80,1),ineq(2, movesTo_00011, 0)})
+watched-or({diseq(1,moves_00011),w-literal(aux81,1),ineq(3, movesTo_00011, 0)})
+watched-or({gaceq(states_00012_00003,states_00014_00001),ineq(2, movesTo_00012, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00004,32),ineq(movesFrom_00001, 4, 0),ineq(4, movesTo_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00005,6),ineq(movesFrom_00001, 5, 0),ineq(5, movesTo_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00006,16),ineq(movesFrom_00001, 6, 0),ineq(6, movesTo_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00007,48),ineq(movesFrom_00001, 7, 0),ineq(7, movesTo_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00008,1),ineq(movesFrom_00001, 8, 0),ineq(8, movesTo_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00009,2),ineq(movesFrom_00001, 9, 0),ineq(9, movesTo_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00010,31),ineq(movesFrom_00001, 10, 0),ineq(10, movesTo_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00011,34),ineq(movesFrom_00001, 11, 0),ineq(11, movesTo_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00012,35),ineq(movesFrom_00001, 12, 0)})
+watched-or({diseq(3,moves_00002),w-literal(states_00003_00002,17),ineq(2, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux158,1),ineq(3, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux157,1),ineq(movesFrom_00002, 4, 0),ineq(4, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux155,1),ineq(movesFrom_00002, 5, 0),ineq(5, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux154,1),ineq(movesFrom_00002, 6, 0),ineq(6, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux163,1),ineq(movesFrom_00002, 7, 0),ineq(7, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux162,1),ineq(movesFrom_00002, 8, 0),ineq(8, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux159,1),ineq(movesFrom_00002, 9, 0),ineq(9, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux148,1),ineq(movesFrom_00002, 10, 0),ineq(10, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux150,1),ineq(movesFrom_00002, 11, 0),ineq(11, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00002),gaceq(states_00002_00012,states_00003_00012),ineq(movesFrom_00002, 12, 0),ineq(12, movesTo_00002, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux116,1),ineq(2, movesTo_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux119,1),ineq(movesFrom_00003, 3, 0),ineq(3, movesTo_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux117,1),ineq(movesFrom_00003, 4, 0),ineq(4, movesTo_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux123,1),ineq(movesFrom_00003, 5, 0),ineq(5, movesTo_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux122,1),ineq(movesFrom_00003, 6, 0),ineq(6, movesTo_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux128,1),ineq(movesFrom_00003, 7, 0),ineq(7, movesTo_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux126,1),ineq(movesFrom_00003, 8, 0),ineq(8, movesTo_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux130,1),ineq(movesFrom_00003, 9, 0),ineq(9, movesTo_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux113,1),ineq(movesFrom_00003, 10, 0),ineq(10, movesTo_00003, 0)})
+watched-or({diseq(3,moves_00003),gaceq(states_00004_00011,states_00003_00011),ineq(movesFrom_00003, 11, 0),ineq(11, movesTo_00003, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux143,1),ineq(movesFrom_00004, 2, 0),ineq(2, movesTo_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux141,1),ineq(movesFrom_00004, 3, 0),ineq(3, movesTo_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux140,1),ineq(movesFrom_00004, 4, 0),ineq(4, movesTo_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux137,1),ineq(movesFrom_00004, 5, 0),ineq(5, movesTo_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux136,1),ineq(movesFrom_00004, 6, 0),ineq(6, movesTo_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux133,1),ineq(movesFrom_00004, 7, 0),ineq(7, movesTo_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux132,1),ineq(movesFrom_00004, 8, 0),ineq(8, movesTo_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux144,1),ineq(movesFrom_00004, 9, 0),ineq(9, movesTo_00004, 0)})
+watched-or({diseq(3,moves_00004),gaceq(states_00004_00010,states_00005_00010),ineq(movesFrom_00004, 10, 0),ineq(10, movesTo_00004, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux85,1),ineq(movesFrom_00005, 2, 0),ineq(2, movesTo_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux84,1),ineq(movesFrom_00005, 3, 0),ineq(3, movesTo_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux88,1),ineq(movesFrom_00005, 4, 0),ineq(4, movesTo_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux87,1),ineq(movesFrom_00005, 5, 0),ineq(5, movesTo_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux92,1),ineq(movesFrom_00005, 6, 0),ineq(6, movesTo_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux91,1),ineq(movesFrom_00005, 7, 0),ineq(7, movesTo_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux95,1),ineq(movesFrom_00005, 8, 0),ineq(8, movesTo_00005, 0)})
+watched-or({diseq(3,moves_00005),gaceq(states_00005_00009,states_00006_00009),ineq(movesFrom_00005, 9, 0),ineq(9, movesTo_00005, 0)})
+watched-or({diseq(3,moves_00006),ineq(movesFrom_00006, 2, 0),w-literal(aux165,1),ineq(2, movesTo_00006, 0)})
+watched-or({diseq(3,moves_00006),ineq(movesFrom_00006, 3, 0),w-literal(aux172,1),ineq(3, movesTo_00006, 0)})
+watched-or({diseq(3,moves_00006),ineq(movesFrom_00006, 4, 0),w-literal(aux171,1),ineq(4, movesTo_00006, 0)})
+watched-or({diseq(3,moves_00006),ineq(movesFrom_00006, 5, 0),w-literal(aux168,1),ineq(5, movesTo_00006, 0)})
+watched-or({diseq(3,moves_00006),ineq(movesFrom_00006, 6, 0),w-literal(aux167,1),ineq(6, movesTo_00006, 0)})
+watched-or({diseq(3,moves_00006),ineq(movesFrom_00006, 7, 0),w-literal(aux176,1),ineq(7, movesTo_00006, 0)})
+watched-or({diseq(3,moves_00006),ineq(movesFrom_00006, 8, 0),gaceq(states_00006_00008,states_00007_00008),ineq(8, movesTo_00006, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux184,1),ineq(movesFrom_00007, 2, 0),ineq(2, movesTo_00007, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux183,1),ineq(movesFrom_00007, 3, 0),ineq(3, movesTo_00007, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux187,1),ineq(movesFrom_00007, 4, 0),ineq(4, movesTo_00007, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux186,1),ineq(movesFrom_00007, 5, 0),ineq(5, movesTo_00007, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux179,1),ineq(movesFrom_00007, 6, 0),ineq(6, movesTo_00007, 0)})
+watched-or({diseq(3,moves_00007),gaceq(states_00007_00007,states_00008_00007),ineq(movesFrom_00007, 7, 0),ineq(7, movesTo_00007, 0)})
+watched-or({diseq(3,moves_00008),w-literal(aux107,1),ineq(movesFrom_00008, 2, 0),ineq(2, movesTo_00008, 0)})
+watched-or({diseq(3,moves_00008),w-literal(aux105,1),ineq(movesFrom_00008, 3, 0),ineq(3, movesTo_00008, 0)})
+watched-or({diseq(3,moves_00008),w-literal(aux112,1),ineq(movesFrom_00008, 4, 0),ineq(4, movesTo_00008, 0)})
+watched-or({diseq(3,moves_00008),w-literal(aux110,1),ineq(movesFrom_00008, 5, 0),ineq(5, movesTo_00008, 0)})
+watched-or({diseq(3,moves_00008),gaceq(states_00009_00006,states_00008_00006),ineq(movesFrom_00008, 6, 0),ineq(6, movesTo_00008, 0)})
+watched-or({diseq(3,moves_00009),ineq(movesFrom_00009, 2, 0),w-literal(aux97,1),ineq(2, movesTo_00009, 0)})
+watched-or({diseq(3,moves_00009),ineq(movesFrom_00009, 3, 0),w-literal(aux99,1),ineq(3, movesTo_00009, 0)})
+watched-or({diseq(3,moves_00009),ineq(movesFrom_00009, 4, 0),w-literal(aux100,1),ineq(4, movesTo_00009, 0)})
+watched-or({diseq(3,moves_00009),ineq(movesFrom_00009, 5, 0),gaceq(states_00009_00005,states_00010_00005),ineq(5, movesTo_00009, 0)})
+watched-or({diseq(3,moves_00010),ineq(movesFrom_00010, 2, 0),ineq(2, movesTo_00010, 0),w-literal(aux76,1)})
+watched-or({diseq(3,moves_00010),ineq(movesFrom_00010, 3, 0),ineq(3, movesTo_00010, 0),w-literal(aux78,1)})
+watched-or({diseq(3,moves_00010),ineq(movesFrom_00010, 4, 0),ineq(4, movesTo_00010, 0),gaceq(states_00010_00004,states_00011_00004)})
+watched-or({diseq(3,moves_00011),ineq(movesFrom_00011, 2, 0),w-literal(aux79,1),ineq(2, movesTo_00011, 0)})
+watched-or({diseq(3,moves_00011),ineq(movesFrom_00011, 3, 0),gaceq(states_00012_00003,states_00011_00003),ineq(3, movesTo_00011, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00004,6),ineq(5, movesFrom_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00005,16),ineq(6, movesFrom_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00006,48),ineq(7, movesFrom_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00007,1),ineq(8, movesFrom_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00008,2),ineq(9, movesFrom_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00009,31),ineq(10, movesFrom_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00010,34),ineq(11, movesFrom_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00011,35),ineq(12, movesFrom_00001, 0)})
+watched-or({diseq(3,moves_00001),w-literal(states_00002_00012,5),ineq(13, movesFrom_00001, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux156,1),ineq(5, movesFrom_00002, 0),ineq(13, movesFrom_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux153,1),ineq(6, movesFrom_00002, 0),ineq(13, movesFrom_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux164,1),ineq(7, movesFrom_00002, 0),ineq(13, movesFrom_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux161,1),ineq(8, movesFrom_00002, 0),ineq(13, movesFrom_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux160,1),ineq(9, movesFrom_00002, 0),ineq(13, movesFrom_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux152,1),ineq(10, movesFrom_00002, 0),ineq(13, movesFrom_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux149,1),ineq(11, movesFrom_00002, 0),ineq(13, movesFrom_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(aux151,1),ineq(12, movesFrom_00002, 0),ineq(13, movesFrom_00002, 0)})
+watched-or({diseq(3,moves_00002),w-literal(states_00003_00012,13),ineq(13, movesFrom_00002, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux120,1),ineq(4, movesFrom_00003, 0),ineq(12, movesFrom_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux118,1),ineq(5, movesFrom_00003, 0),ineq(12, movesFrom_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux124,1),ineq(6, movesFrom_00003, 0),ineq(12, movesFrom_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux121,1),ineq(7, movesFrom_00003, 0),ineq(12, movesFrom_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux127,1),ineq(8, movesFrom_00003, 0),ineq(12, movesFrom_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux125,1),ineq(9, movesFrom_00003, 0),ineq(12, movesFrom_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux129,1),ineq(10, movesFrom_00003, 0),ineq(12, movesFrom_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux114,1),ineq(11, movesFrom_00003, 0),ineq(12, movesFrom_00003, 0)})
+watched-or({diseq(3,moves_00003),w-literal(aux115,1),ineq(12, movesFrom_00003, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux142,1),ineq(3, movesFrom_00004, 0),ineq(11, movesFrom_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux139,1),ineq(4, movesFrom_00004, 0),ineq(11, movesFrom_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux138,1),ineq(5, movesFrom_00004, 0),ineq(11, movesFrom_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux135,1),ineq(6, movesFrom_00004, 0),ineq(11, movesFrom_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux134,1),ineq(7, movesFrom_00004, 0),ineq(11, movesFrom_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux131,1),ineq(8, movesFrom_00004, 0),ineq(11, movesFrom_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux145,1),ineq(9, movesFrom_00004, 0),ineq(11, movesFrom_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux146,1),ineq(10, movesFrom_00004, 0),ineq(11, movesFrom_00004, 0)})
+watched-or({diseq(3,moves_00004),w-literal(aux147,1),ineq(11, movesFrom_00004, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux83,1),ineq(3, movesFrom_00005, 0),ineq(10, movesFrom_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux89,1),ineq(4, movesFrom_00005, 0),ineq(10, movesFrom_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux86,1),ineq(5, movesFrom_00005, 0),ineq(10, movesFrom_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux93,1),ineq(6, movesFrom_00005, 0),ineq(10, movesFrom_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux90,1),ineq(7, movesFrom_00005, 0),ineq(10, movesFrom_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux96,1),ineq(8, movesFrom_00005, 0),ineq(10, movesFrom_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux94,1),ineq(9, movesFrom_00005, 0),ineq(10, movesFrom_00005, 0)})
+watched-or({diseq(3,moves_00005),w-literal(aux82,1),ineq(10, movesFrom_00005, 0)})
+watched-or({diseq(3,moves_00006),w-literal(aux173,1),ineq(3, movesFrom_00006, 0),ineq(9, movesFrom_00006, 0)})
+watched-or({diseq(3,moves_00006),w-literal(aux170,1),ineq(4, movesFrom_00006, 0),ineq(9, movesFrom_00006, 0)})
+watched-or({diseq(3,moves_00006),w-literal(aux169,1),ineq(5, movesFrom_00006, 0),ineq(9, movesFrom_00006, 0)})
+watched-or({diseq(3,moves_00006),w-literal(aux166,1),ineq(6, movesFrom_00006, 0),ineq(9, movesFrom_00006, 0)})
+watched-or({diseq(3,moves_00006),w-literal(aux177,1),ineq(7, movesFrom_00006, 0),ineq(9, movesFrom_00006, 0)})
+watched-or({diseq(3,moves_00006),w-literal(aux175,1),ineq(8, movesFrom_00006, 0),ineq(9, movesFrom_00006, 0)})
+watched-or({diseq(3,moves_00006),w-literal(aux174,1),ineq(9, movesFrom_00006, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux182,1),ineq(3, movesFrom_00007, 0),ineq(8, movesFrom_00007, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux188,1),ineq(4, movesFrom_00007, 0),ineq(8, movesFrom_00007, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux185,1),ineq(5, movesFrom_00007, 0),ineq(8, movesFrom_00007, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux180,1),ineq(6, movesFrom_00007, 0),ineq(8, movesFrom_00007, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux178,1),ineq(7, movesFrom_00007, 0),ineq(8, movesFrom_00007, 0)})
+watched-or({diseq(3,moves_00007),w-literal(aux181,1),ineq(8, movesFrom_00007, 0)})
+watched-or({diseq(3,moves_00008),w-literal(aux106,1),ineq(3, movesFrom_00008, 0),ineq(7, movesFrom_00008, 0)})
+watched-or({diseq(3,moves_00008),w-literal(aux104,1),ineq(4, movesFrom_00008, 0),ineq(7, movesFrom_00008, 0)})
+watched-or({diseq(3,moves_00008),w-literal(aux111,1),ineq(5, movesFrom_00008, 0),ineq(7, movesFrom_00008, 0)})
+watched-or({diseq(3,moves_00008),w-literal(aux109,1),ineq(6, movesFrom_00008, 0),ineq(7, movesFrom_00008, 0)})
+watched-or({diseq(3,moves_00008),w-literal(aux108,1),ineq(7, movesFrom_00008, 0)})
+watched-or({diseq(3,moves_00009),w-literal(aux98,1),ineq(3, movesFrom_00009, 0),ineq(6, movesFrom_00009, 0)})
+watched-or({diseq(3,moves_00009),w-literal(aux101,1),ineq(4, movesFrom_00009, 0),ineq(6, movesFrom_00009, 0)})
+watched-or({diseq(3,moves_00009),w-literal(aux102,1),ineq(5, movesFrom_00009, 0),ineq(6, movesFrom_00009, 0)})
+watched-or({diseq(3,moves_00009),w-literal(aux103,1),ineq(6, movesFrom_00009, 0)})
+watched-or({diseq(3,moves_00010),ineq(3, movesFrom_00010, 0),ineq(5, movesFrom_00010, 0),w-literal(aux77,1)})
+watched-or({diseq(3,moves_00010),ineq(4, movesFrom_00010, 0),ineq(5, movesFrom_00010, 0),w-literal(aux74,1)})
+watched-or({diseq(3,moves_00010),ineq(5, movesFrom_00010, 0),w-literal(aux75,1)})
+watched-or({diseq(3,moves_00011),w-literal(aux80,1),ineq(3, movesFrom_00011, 0),ineq(4, movesFrom_00011, 0)})
+watched-or({diseq(3,moves_00011),w-literal(aux81,1),ineq(4, movesFrom_00011, 0)})
+reifyimply(w-literal(states_00002_00003,28), aux227)
+reifyimply(w-literal(states_00002_00004,32), aux228)
+reifyimply(w-literal(states_00002_00005,6), aux229)
+reifyimply(w-literal(states_00002_00006,16), aux230)
+reifyimply(w-literal(states_00002_00007,48), aux231)
+reifyimply(w-literal(states_00002_00008,1), aux232)
+reifyimply(w-literal(states_00002_00009,2), aux233)
+reifyimply(w-literal(states_00002_00010,31), aux234)
+reifyimply(w-literal(states_00003_00001,47), aux235)
+reifyimply(w-literal(states_00003_00002,17), aux236)
+ineq(aux237, aux158, 0)
+ineq(aux238, aux157, 0)
+ineq(aux239, aux155, 0)
+ineq(aux240, aux154, 0)
+ineq(aux241, aux163, 0)
+ineq(aux242, aux162, 0)
+ineq(aux243, aux159, 0)
+ineq(aux244, aux148, 0)
+ineq(aux245, aux150, 0)
+reifyimply(gaceq(states_00004_00001,states_00003_00001), aux246)
+ineq(aux247, aux116, 0)
+ineq(aux248, aux119, 0)
+ineq(aux249, aux117, 0)
+ineq(aux250, aux123, 0)
+ineq(aux251, aux122, 0)
+ineq(aux252, aux128, 0)
+ineq(aux253, aux126, 0)
+ineq(aux254, aux130, 0)
+ineq(aux255, aux113, 0)
+reifyimply(gaceq(states_00004_00001,states_00005_00001), aux256)
+ineq(aux257, aux143, 0)
+ineq(aux258, aux141, 0)
+ineq(aux259, aux140, 0)
+ineq(aux260, aux137, 0)
+ineq(aux261, aux136, 0)
+ineq(aux262, aux133, 0)
+ineq(aux263, aux132, 0)
+ineq(aux264, aux144, 0)
+reifyimply(gaceq(states_00005_00001,states_00006_00001), aux265)
+ineq(aux266, aux85, 0)
+ineq(aux267, aux84, 0)
+ineq(aux268, aux88, 0)
+ineq(aux269, aux87, 0)
+ineq(aux270, aux92, 0)
+ineq(aux271, aux91, 0)
+ineq(aux272, aux95, 0)
+reifyimply(gaceq(states_00006_00001,states_00007_00001), aux273)
+ineq(aux274, aux165, 0)
+ineq(aux275, aux172, 0)
+ineq(aux276, aux171, 0)
+ineq(aux277, aux168, 0)
+ineq(aux278, aux167, 0)
+ineq(aux279, aux176, 0)
+reifyimply(gaceq(states_00007_00001,states_00008_00001), aux280)
+ineq(aux281, aux184, 0)
+ineq(aux282, aux183, 0)
+ineq(aux283, aux187, 0)
+ineq(aux284, aux186, 0)
+ineq(aux285, aux179, 0)
+reifyimply(gaceq(states_00009_00001,states_00008_00001), aux286)
+ineq(aux287, aux107, 0)
+ineq(aux288, aux105, 0)
+ineq(aux289, aux112, 0)
+ineq(aux290, aux110, 0)
+reifyimply(gaceq(states_00009_00001,states_00010_00001), aux291)
+ineq(aux292, aux97, 0)
+ineq(aux293, aux99, 0)
+ineq(aux294, aux100, 0)
+reifyimply(gaceq(states_00010_00001,states_00011_00001), aux295)
+ineq(aux296, aux76, 0)
+ineq(aux297, aux78, 0)
+reifyimply(gaceq(states_00012_00001,states_00011_00001), aux298)
+ineq(aux299, aux79, 0)
+reifyimply(gaceq(states_00012_00001,states_00013_00001), aux300)
+watchelement([states_00002_00003, states_00002_00004, states_00002_00005, states_00002_00006, states_00002_00007, states_00002_00008, states_00002_00009, states_00002_00010, states_00002_00011], aux62, aux19)
+watchelement([states_00003_00001, states_00003_00002, states_00003_00003, states_00003_00004, states_00003_00005, states_00003_00006, states_00003_00007, states_00003_00008, states_00003_00009, states_00003_00010, states_00003_00011, states_00003_00012], aux70, aux22)
+watchelement([states_00004_00001, states_00004_00002, states_00004_00003, states_00004_00004, states_00004_00005, states_00004_00006, states_00004_00007, states_00004_00008, states_00004_00009, states_00004_00010, states_00004_00011], aux69, aux21)
+watchelement([states_00005_00001, states_00005_00002, states_00005_00003, states_00005_00004, states_00005_00005, states_00005_00006, states_00005_00007, states_00005_00008, states_00005_00009, states_00005_00010], aux66, aux18)
+watchelement([states_00006_00001, states_00006_00002, states_00006_00003, states_00006_00004, states_00006_00005, states_00006_00006, states_00006_00007, states_00006_00008, states_00006_00009], aux65, aux23)
+watchelement([states_00007_00001, states_00007_00002, states_00007_00003, states_00007_00004, states_00007_00005, states_00007_00006, states_00007_00007, states_00007_00008], aux68, aux27)
+watchelement([states_00008_00001, states_00008_00002, states_00008_00003, states_00008_00004, states_00008_00005, states_00008_00006, states_00008_00007], aux67, aux28)
+watchelement([states_00009_00001, states_00009_00002, states_00009_00003, states_00009_00004, states_00009_00005, states_00009_00006], aux64, aux31)
+watchelement([states_00010_00001, states_00010_00002, states_00010_00003, states_00010_00004, states_00010_00005], aux63, aux33)
+watchelement([states_00011_00001, states_00011_00002, states_00011_00003, states_00011_00004], aux73, aux35)
+watchelement([states_00012_00001, states_00012_00002, states_00012_00003], aux72, aux37)
+watchelement([states_00013_00001, states_00014_00001], aux71, aux38)
+watched-or({div(aux25, 13, aux189),modulo(aux25,13,aux190)})
+watched-or({div(aux22, 13, aux191),modulo(aux16,13,aux192)})
+watched-or({div(aux21, 13, aux193),modulo(aux21,13,aux194)})
+watched-or({modulo(aux20,13,aux195),div(aux20, 13, aux196)})
+watched-or({div(aux24, 13, aux197),modulo(aux24,13,aux198)})
+watched-or({div(aux27, 13, aux199),modulo(aux27,13,aux200)})
+watched-or({div(aux28, 13, aux201),modulo(aux28,13,aux202)})
+watched-or({div(aux31, 13, aux203),modulo(aux31,13,aux204)})
+watched-or({div(aux32, 13, aux205),modulo(aux33,13,aux206)})
+watched-or({div(aux35, 13, aux207),modulo(aux35,13,aux208)})
+watched-or({modulo(aux36,13,aux209),div(aux37, 13, aux210)})
+watched-or({modulo(aux38,13,aux211),div(aux39, 13, aux212)})
+watched-or({div(states_00014_00001, 13, aux213),modulo(states_00013_00001,13,aux214)})
+watched-or({w-literal(aux40,1),w-literal(aux43,1)})
+watched-or({w-literal(aux41,1),w-literal(aux44,1)})
+watched-or({w-literal(aux42,1),w-literal(aux46,1)})
+watched-or({w-literal(aux45,1),w-literal(aux49,1)})
+watched-or({w-literal(aux47,1),w-literal(aux51,1)})
+watched-or({w-literal(aux48,1),w-literal(aux52,1)})
+watched-or({w-literal(aux50,1),w-literal(aux54,1)})
+watched-or({w-literal(aux53,1),w-literal(aux56,1)})
+watched-or({w-literal(aux55,1),w-literal(aux57,1)})
+watched-or({w-literal(aux59,1),w-literal(aux61,1)})
+watched-or({w-literal(aux58,1),w-literal(aux60,1)})
+reifyimply(w-literal(moves_00001,1), aux40)
+reifyimply(w-literal(moves_00002,1), aux41)
+reifyimply(w-literal(moves_00003,1), aux42)
+reifyimply(w-literal(moves_00004,1), aux45)
+reifyimply(w-literal(moves_00005,1), aux47)
+reifyimply(w-literal(moves_00006,1), aux48)
+reifyimply(w-literal(moves_00007,1), aux50)
+reifyimply(w-literal(moves_00008,1), aux53)
+reifyimply(w-literal(moves_00009,1), aux55)
+reifyimply(w-literal(moves_00010,1), aux59)
+reifyimply(w-literal(moves_00011,1), aux58)
+reifyimply(w-literal(moves_00001,3), aux43)
+reifyimply(w-literal(moves_00002,3), aux44)
+reifyimply(w-literal(moves_00003,3), aux46)
+reifyimply(w-literal(moves_00004,3), aux49)
+reifyimply(w-literal(moves_00005,3), aux51)
+reifyimply(w-literal(moves_00006,3), aux52)
+reifyimply(w-literal(moves_00007,3), aux54)
+reifyimply(w-literal(moves_00008,3), aux56)
+reifyimply(w-literal(moves_00009,3), aux57)
+reifyimply(w-literal(moves_00010,3), aux61)
+reifyimply(w-literal(moves_00011,3), aux60)
+ineq(movesTo_00001, movesFrom_00001, -1)
+ineq(movesTo_00002, movesFrom_00002, -1)
+ineq(movesTo_00003, movesFrom_00003, -1)
+ineq(movesTo_00004, movesFrom_00004, -1)
+ineq(movesTo_00005, movesFrom_00005, -1)
+ineq(movesTo_00006, movesFrom_00006, -1)
+ineq(movesTo_00007, movesFrom_00007, -1)
+ineq(movesTo_00008, movesFrom_00008, -1)
+ineq(movesTo_00009, movesFrom_00009, -1)
+ineq(movesTo_00010, movesFrom_00010, -1)
+ineq(movesTo_00011, movesFrom_00011, -1)
+ineq(movesTo_00012, movesFrom_00012, -1)
+sumleq([-2,movesFrom_00004],aux215)
+sumgeq([-2,movesFrom_00004],aux215)
+sumleq([-4,movesFrom_00001],aux216)
+sumgeq([-4,movesFrom_00001],aux216)
+sumleq([-3,movesFrom_00003],aux217)
+sumgeq([-3,movesFrom_00003],aux217)
+sumleq([-4,movesFrom_00002],aux218)
+sumgeq([-4,movesFrom_00002],aux218)
+sumleq([-2,movesFrom_00005],aux219)
+sumgeq([-2,movesFrom_00005],aux219)
+sumleq([-2,movesFrom_00006],aux220)
+sumgeq([-2,movesFrom_00006],aux220)
+sumleq([-2,movesFrom_00007],aux221)
+sumgeq([-2,movesFrom_00007],aux221)
+sumleq([-2,movesFrom_00008],aux222)
+sumgeq([-2,movesFrom_00008],aux222)
+sumleq([-2,movesFrom_00009],aux223)
+sumgeq([-2,movesFrom_00009],aux223)
+sumleq([-2,movesFrom_00010],aux224)
+sumgeq([-2,movesFrom_00010],aux224)
+sumleq([-2,movesFrom_00011],aux225)
+sumgeq([-2,movesFrom_00011],aux225)
+sumleq([-2,movesFrom_00012],aux226)
+sumgeq([-2,movesFrom_00012],aux226)
+sumleq([-3,movesTo_00001],aux62)
+sumgeq([-3,movesTo_00001],aux62)
+sumleq([-1,movesTo_00009],aux63)
+sumgeq([-1,movesTo_00009],aux63)
+sumleq([-1,movesTo_00008],aux64)
+sumgeq([-1,movesTo_00008],aux64)
+sumleq([-1,movesTo_00005],aux65)
+sumgeq([-1,movesTo_00005],aux65)
+sumleq([-1,movesTo_00004],aux66)
+sumgeq([-1,movesTo_00004],aux66)
+sumleq([-1,movesTo_00007],aux67)
+sumgeq([-1,movesTo_00007],aux67)
+sumleq([-1,movesTo_00006],aux68)
+sumgeq([-1,movesTo_00006],aux68)
+sumleq([-1,movesTo_00003],aux69)
+sumgeq([-1,movesTo_00003],aux69)
+sumleq([-1,movesTo_00002],aux70)
+sumgeq([-1,movesTo_00002],aux70)
+sumleq([-1,movesTo_00012],aux71)
+sumgeq([-1,movesTo_00012],aux71)
+sumleq([-1,movesTo_00011],aux72)
+sumgeq([-1,movesTo_00011],aux72)
+sumleq([-1,movesTo_00010],aux73)
+sumgeq([-1,movesTo_00010],aux73)
+sumleq([1,movesTo_00012],movesFrom_00012)
+sumgeq([1,movesTo_00012],movesFrom_00012)
+**EOF**

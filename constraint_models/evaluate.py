@@ -20,7 +20,7 @@ if __name__ == '__main__':
         print('\tmode_num should be one of 1 ~ 3')
         exit(1)
 
-    data_df = pd.read_csv('./solvable.csv')
+    data_df = pd.read_csv('./output.csv')
 
     if mode == 1:
         # filter by column values
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
     elif mode == 3:
         # filter by column values
-        data_df = data_df[data_df['option'] == 'None']
+        data_df = data_df[(data_df['option'] == 'None') & (data_df['SolverSolutionsFound'] != 0)]
         # group by unique combination of cards and seed
         grouped_df = data_df.groupby(['cards', 'seed'])
 
