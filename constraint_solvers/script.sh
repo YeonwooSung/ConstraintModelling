@@ -58,7 +58,7 @@ function generateSudoku {
 function generateQuasiGroup {
     input_file=$1
     n=$2
-    java -cp ${CLASSES_DIR} generators.QuasiGroupGenerator > ${PROBLEMS_DIR}Quasi${n}.csp
+    java -cp ${CLASSES_DIR} generators.QuasiGroupGenerator ${input_file} ${n} > ${PROBLEMS_DIR}Quasi${n}.csp
 }
 
 if [[ $# -eq 0 ]]; then
@@ -76,7 +76,7 @@ elif [[ "$1" = "langfords" ]]; then
 elif [[ "$1" = "sudoku" ]]; then
     generateSudoku $2
 elif [[ "$1" = "quasi" ]]; then
-    generateSudoku $2 $3
+    generateQuasiGroup $2 $3
 else
     # The run command
     java -cp ${CLASSES_DIR}:${LIBS} $@
