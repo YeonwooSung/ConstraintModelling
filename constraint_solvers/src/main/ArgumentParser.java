@@ -52,11 +52,13 @@ public abstract class ArgumentParser {
         if (!areArgsValid()) {
             return null;
         }
+
         Logging.setLogConfig(parseLoggingConfiguration());
         alg = getAlgorithm(args[CSP_INDEX], args[ALG_INDEX]);
-        if (alg == null) {
+
+        if (alg == null)
             return null;
-        }
+
         int count = parseSolutionCount();
         boolean consistentStart = startConsistent();
         return alg.solve(count, consistentStart);

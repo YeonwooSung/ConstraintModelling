@@ -19,8 +19,14 @@ public class Basic extends ArgumentParser {
 
     public static void main(String[] args) {
         Basic basic = new Basic(args);
+
+        // run satisfaction algorithm to get solutions
         LinkedHashSet<Solution> solutions = basic.runSatisfactionAlg();
+
+        // print out all solutions
         solutions.forEach(System.out::println);
+
+        // print out 1) solution count, 2) total execution time, 3) node counts, and 4) arc revisions
         System.out.println("Solution count: " + solutions.size());
         long executionTime = basic.getExecutionTime();
         System.out.println("Found in: " + executionTime + " milliseconds");
@@ -46,11 +52,11 @@ public class Basic extends ArgumentParser {
             e.printStackTrace();
             return null;
         }
+
+        // check the algorithm name (FC | MAC | MAC3), and return corresponding instance
         if (algname.equalsIgnoreCase("FC")) {
             return new ForwardChecking(csp);
-        } else if (algname.equalsIgnoreCase("MAC")) {
-            return new MaintainingArcConsistency(csp);
-        } else if (algname.equalsIgnoreCase("MAC3")) {
+        } else if (algname.equalsIgnoreCase("MAC") || algname.equalsIgnoreCase("MAC3")) {
             return new MaintainingArcConsistency(csp);
         } else {
             System.out.println("Algorithm not recognized!");
