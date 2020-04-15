@@ -122,7 +122,7 @@ public final class QuasiGroupGenerator {
     }
 
     public static void main(String[] args) throws NullPointerException, FileNotFoundException {
-        System.out.println("Usage: java generators.QuasiGroupGenerator <n>");
+        System.out.println("Usage: java generators.QuasiGroupGenerator <quasigroup_file_path> <n>");
 
         int n = Integer.parseInt(args[1]);
         System.out.println("n is " + n);
@@ -135,6 +135,7 @@ public final class QuasiGroupGenerator {
 
         int[][] values;
 
+        // check if the extension of file is 'pls'
         if (args[0].endsWith(".pls"))
             values = read2(args[0]);
         else
@@ -144,6 +145,7 @@ public final class QuasiGroupGenerator {
 
         int holes = 0;
 
+        // use try-catch to handle the NullPointerException
         try {
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
@@ -158,8 +160,8 @@ public final class QuasiGroupGenerator {
             System.out.println("Invalid file reading");
             e.getMessage();
         }
-        System.out.println("\n// constraints (vars indexed from 0, allowed tuples):");
 
+        System.out.println("\n// constraints (vars indexed from 0, allowed tuples):");
         System.out.println("\n//Number of Holes: " + holes + "\n");
 
         // Rows
