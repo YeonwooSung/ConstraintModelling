@@ -18,6 +18,7 @@ readonly JAVADOC_OPTIONS="-private -splitindex -use -author -version"
 # The directory containing csp files
 readonly PROBLEMS_DIR="problems/"
 
+# create javadoc
 function create_javadoc {
     # Delete previous compilation
     rm -rf ${JAVADOC_DIR}
@@ -29,32 +30,39 @@ function create_javadoc {
     javadoc ${JAVADOC_OPTIONS} -d ${JAVADOC_DIR} -sourcepath src -cp ${LIBS} -subpackages . >/dev/null 2>/dev/null
 }
 
+
+# compile the java files
 function compile {
     rm -rf ${CLASSES_DIR}
     mkdir ${CLASSES_DIR}
     javac ${SRC_FILES} -d ${CLASSES_DIR} -cp ${LIBS}
 }
 
+# clean the class files
 function clean {
     rm -rf ${CLASSES_DIR} ${JAVADOC_DIR}
 }
 
+# generate n_queens csp file
 function generateQueens {
     amount=$1
     java -cp ${CLASSES_DIR} generators.QueensGenerator ${amount} > ${PROBLEMS_DIR}${amount}Queens.csp
 }
 
+# generate langfords csp file
 function generateLangfords {
     k=$1
     n=$2
     java -cp ${CLASSES_DIR} generators.LangfordsGenerator ${k} ${n} > ${PROBLEMS_DIR}L${k}_${n}.csp
 }
 
+# generate sudoku csp file
 function generateSudoku {
     n=$1
     java -cp ${CLASSES_DIR} generators.SudokuGenerator > ${PROBLEMS_DIR}Sudoku${n}.csp
 }
 
+# generate quasi group csp file
 function generateQuasiGroup {
     input_file=$1
     n=$2
