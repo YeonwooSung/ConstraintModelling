@@ -17,9 +17,16 @@ import java.util.LinkedHashSet;
 public class Nary extends ArgumentParser {
 
     public static void main(String[] args) {
+        // create n-ary solver
         Nary nary = new Nary(args);
+
+        // get solutions by running the satisfaction algorithm
         LinkedHashSet<Assignment> solutions = nary.runSatisfactionAlg();
+
+        // print out all solutions
         solutions.forEach(System.out::println);
+
+        // print out 1) solution count, 2) total execution time, 3) node counts, and 4) arc revisions
         System.out.println("Solution count: " + solutions.size());
         long executionTime = nary.getExecutionTime();
         System.out.println("Found in: " + executionTime + " milliseconds");
